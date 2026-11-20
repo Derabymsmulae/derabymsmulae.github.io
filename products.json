@@ -1,0 +1,532 @@
+[
+ {
+  "id": "n-black-gold-lattice",
+  "name": "Black Gold Lattice Halter",
+  "cat": "Backless Dera",
+  "color": "Black",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/black-gold-lattice-front.jpg",
+   "images/black-gold-lattice-back.jpg"
+  ],
+  "desc": "Black base with a gold and tan lattice of hand-dyed lines. Halter neck with an open, tie back and a full, flowing skirt.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "n-navy-lattice",
+  "name": "Navy Lattice Halter",
+  "cat": "Backless Dera",
+  "color": "Navy",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/navy-lattice-front.jpg",
+   "images/navy-lattice-back.jpg"
+  ],
+  "desc": "Deep navy with a pale lattice dye pattern. Halter neck, open tie back and a relaxed, floor-length drape.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "n-midnight-marigold",
+  "name": "Midnight Marigold Halter",
+  "cat": "Backless Dera",
+  "color": "Navy",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Hand-dyed",
+  "images": [
+   "images/midnight-marigold-halter-front.jpg",
+   "images/midnight-marigold-halter-back.jpg"
+  ],
+  "desc": "Deep midnight blue with golden marigold and violet dye splashes. Halter neck with an open tie back."
+ },
+ {
+  "id": "n-indigo-amber",
+  "name": "Indigo Amber Kaftan",
+  "cat": "Normal Dera",
+  "color": "Navy",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Hand-dyed",
+  "images": [
+   "images/indigo-amber-kaftan-front.jpg",
+   "images/indigo-amber-kaftan-back.jpg"
+  ],
+  "desc": "Indigo with amber and violet marbled dye. Short-sleeve kaftan with an easy, relaxed fit."
+ },
+ {
+  "id": "n-sky-olive",
+  "name": "Sky and Olive Halter",
+  "cat": "Backless Dera",
+  "color": "Blue",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/sky-olive-front.jpg",
+   "images/sky-olive-back.jpg"
+  ],
+  "desc": "Soft sky blue with olive green dye clouds. Light and airy, with a halter neck and open tie back.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "n-slate-zebra",
+  "name": "Slate Zebra Kaftan",
+  "cat": "Normal Dera",
+  "color": "Blue",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Hand-dyed",
+  "images": [
+   "images/slate-zebra-kaftan-front.jpg",
+   "images/slate-zebra-kaftan-back.jpg"
+  ],
+  "desc": "Slate blue with brown and cream zebra-style dye streaks. Short-sleeve kaftan, roomy and comfortable."
+ },
+ {
+  "id": "n-burgundy-lattice",
+  "name": "Burgundy Lattice Halter",
+  "cat": "Backless Dera",
+  "color": "Burgundy",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/burgundy-lattice-front.jpg",
+   "images/burgundy-lattice-back.jpg"
+  ],
+  "desc": "Deep burgundy with a rose-pink lattice pattern. Elegant halter neck with an open tie back.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "n-mulberry-marble",
+  "name": "Mulberry Marble Halter",
+  "cat": "Normal Dera",
+  "color": "Burgundy",
+  "price": 650,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Hand-dyed",
+  "images": [
+   "images/mulberry-marble-halter-front.jpg"
+  ],
+  "desc": "Mulberry and midnight navy marbled dye. Sleeveless halter style with a flowing skirt."
+ },
+ {
+  "id": "n-amber-marble",
+  "name": "Amber Marble Halter",
+  "cat": "Backless Dera",
+  "color": "Brown",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/amber-marble-front.jpg",
+   "images/amber-marble-back.jpg"
+  ],
+  "desc": "Rich brown and gold marbled dye with touches of deep teal and ink blue. Halter neck, open tie back and a generous skirt.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "n-bronze-medallion",
+  "name": "Bronze Medallion Kaftan",
+  "cat": "Normal Dera",
+  "color": "Brown",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/bronze-medallion-kaftan-front.jpg",
+   "images/bronze-medallion-back.jpg"
+  ],
+  "desc": "Bronze brown with emerald green and midnight medallions. Short-sleeve kaftan style, roomy and easy to wear.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "n-mustard-speckle",
+  "name": "Mustard Speckle Kaftan",
+  "cat": "Normal Dera",
+  "color": "Brown",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Dyed",
+  "images": [
+   "images/mustard-speckle-kaftan-front.jpg"
+  ],
+  "desc": "Rich mustard with a cream speckle pattern across the skirt. Short-sleeve kaftan style."
+ },
+ {
+  "id": "n-safari-print",
+  "name": "Safari Print Kaftan",
+  "cat": "Normal Dera",
+  "color": "Brown",
+  "price": 450,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Printed",
+  "images": [
+   "images/safari-print-kaftan-front.jpg"
+  ],
+  "desc": "Soft browns and cream in an animal-inspired print. Short-sleeve kaftan, easy to wear."
+ },
+ {
+  "id": "n-golden-bloom",
+  "name": "Golden Bloom Print Kaftan",
+  "cat": "Normal Dera",
+  "color": "Gold",
+  "price": 450,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Printed",
+  "images": [
+   "images/golden-bloom-print-kaftan-front.jpg"
+  ],
+  "desc": "Golden brown printed with large cream blooms. Short-sleeve kaftan, light and roomy."
+ },
+ {
+  "id": "n-sunburst-orange",
+  "name": "Sunburst Orange Halter",
+  "cat": "Backless Dera",
+  "color": "Orange",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/sunburst-orange-front.jpg",
+   "images/sunburst-orange-back.jpg"
+  ],
+  "desc": "Bright orange with brown sunburst streaks. A cheerful halter with an open tie back and a flowing skirt.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "n-orange-grove",
+  "name": "Orange Grove Halter",
+  "cat": "Backless Dera",
+  "color": "Orange",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/orange-grove-front.jpg",
+   "images/orange-grove-back.jpg"
+  ],
+  "desc": "Warm orange crossed with dark green and gold lines. Halter neck, open back and an easy, flowing fit.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "n-amber-orchid",
+  "name": "Amber Orchid Halter",
+  "cat": "Backless Dera",
+  "color": "Orange",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Hand-dyed",
+  "images": [
+   "images/amber-orchid-halter-front.jpg",
+   "images/amber-orchid-halter-back.jpg"
+  ],
+  "desc": "Warm amber with orchid purple and lilac dye. Halter neck with a criss-cross open back and flowing skirt."
+ },
+ {
+  "id": "n-terracotta-streak",
+  "name": "Terracotta Streak Kaftan",
+  "cat": "Normal Dera",
+  "color": "Orange",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Hand-dyed",
+  "images": [
+   "images/terracotta-streak-kaftan-front.jpg",
+   "images/terracotta-streak-kaftan-back.jpg"
+  ],
+  "desc": "Terracotta orange with long brown dye streaks. Short-sleeve kaftan, light and flowing."
+ },
+ {
+  "id": "n-amber-starburst",
+  "name": "Amber Starburst Kaftan",
+  "cat": "Normal Dera",
+  "color": "Yellow",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/amber-starburst-front.jpg",
+   "images/amber-starburst-back.jpg"
+  ],
+  "desc": "Golden amber with bold dark starburst medallions. Short-sleeve kaftan style, roomy and comfortable for everyday wear.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "n-honey-leopard",
+  "name": "Honey Leopard Print Kaftan",
+  "cat": "Normal Dera",
+  "color": "Yellow",
+  "price": 450,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Printed",
+  "images": [
+   "images/honey-leopard-print-kaftan-front.jpg"
+  ],
+  "desc": "Honey yellow with an animal-inspired print. Short-sleeve kaftan, cheerful and roomy."
+ },
+ {
+  "id": "n-mint-flame",
+  "name": "Mint Flame Print Kaftan",
+  "cat": "Normal Dera",
+  "color": "Green",
+  "price": 450,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Printed",
+  "images": [
+   "images/mint-flame-print-kaftan-front.jpg"
+  ],
+  "desc": "Cool mint with black and orange flame-like prints. Short-sleeve kaftan."
+ },
+ {
+  "id": "n-olive-ink",
+  "name": "Olive Ink Print Kaftan",
+  "cat": "Normal Dera",
+  "color": "Green",
+  "price": 450,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Printed",
+  "images": [
+   "images/olive-ink-print-kaftan-front.jpg"
+  ],
+  "desc": "Olive green with ink-brush style prints. Short-sleeve kaftan, soft and comfortable."
+ },
+ {
+  "id": "n-mint-blossom",
+  "name": "Mint Blossom Print Kaftan",
+  "cat": "Normal Dera",
+  "color": "Green",
+  "price": 450,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Printed",
+  "images": [
+   "images/mint-blossom-print-kaftan-front.jpg"
+  ],
+  "desc": "Pale mint with a delicate blossom print. Short-sleeve kaftan, light and airy."
+ },
+ {
+  "id": "n-fern-green",
+  "name": "Fern Green Print Kaftan",
+  "cat": "Normal Dera",
+  "color": "Green",
+  "price": 450,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Printed",
+  "images": [
+   "images/fern-green-print-kaftan-front.jpg"
+  ],
+  "desc": "White and lilac with fresh green brush prints. Short-sleeve kaftan, easy and light."
+ },
+ {
+  "id": "n-fuchsia-bloom",
+  "name": "Fuchsia Bloom Halter",
+  "cat": "Backless Dera",
+  "color": "Pink",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/fuchsia-bloom-front.jpg",
+   "images/fuchsia-bloom-back.jpg"
+  ],
+  "desc": "Rich fuchsia pink with golden olive dye blooms. Halter neck, criss-cross tie back and a flowing skirt.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "n-magenta-dusk",
+  "name": "Magenta Dusk Halter",
+  "cat": "Backless Dera",
+  "color": "Pink",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Hand-dyed",
+  "images": [
+   "images/magenta-dusk-halter-front.jpg",
+   "images/magenta-dusk-halter-back.jpg"
+  ],
+  "desc": "Vivid magenta with amber and plum dye clouds. Halter neck with a criss-cross open back and a full, flowing skirt."
+ },
+ {
+  "id": "n-violet-galaxy",
+  "name": "Violet Galaxy Halter",
+  "cat": "Backless Dera",
+  "color": "Purple",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Hand-dyed",
+  "images": [
+   "images/violet-galaxy-halter-front.jpg",
+   "images/violet-galaxy-halter-back.jpg"
+  ],
+  "desc": "Lilac, violet and teal dye bursts with deep brown shading. Halter neck with a criss-cross open back."
+ },
+ {
+  "id": "n-zigzag-print",
+  "name": "Zigzag Print Kaftan",
+  "cat": "Normal Dera",
+  "color": "Multi",
+  "price": 450,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "fabric": "Printed",
+  "images": [
+   "images/zigzag-print-kaftan-front.jpg"
+  ],
+  "desc": "Chevron zigzag in cream, charcoal and orange. Short-sleeve kaftan with a relaxed fit."
+ },
+ {
+  "id": "n-crimson-marble",
+  "name": "Crimson Marble Halter",
+  "cat": "Backless Dera",
+  "color": "Red",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/crimson-marble-front.jpg",
+   "images/crimson-marble-back.jpg"
+  ],
+  "desc": "Vivid red-orange with black and cream marbled dye. A bold halter with a tie back and full skirt.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "d1",
+  "name": "Teal Ember Halter",
+  "cat": "Backless Dera",
+  "color": "Teal",
+  "price": 800,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/teal-front.jpg",
+   "images/teal-back.jpg"
+  ],
+  "desc": "Deep teal with soft rose and amber dye bursts. Elastic halter neck, open tie back and a relaxed, floor-skimming drape.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "d2",
+  "name": "Plum Orchid Halter",
+  "cat": "Backless Dera",
+  "color": "Purple",
+  "price": 750,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/purple-front.jpg",
+   "images/purple-back.jpg"
+  ],
+  "desc": "Mirrored plum and lilac feather dye on a dusky mauve base. Tie halter, open back and a generous flowing skirt.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "d3",
+  "name": "Midnight Blue Kaftan",
+  "cat": "Normal Dera",
+  "color": "Blue",
+  "price": 900,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/blue-front.jpg"
+  ],
+  "desc": "Short-sleeve kaftan with bold electric blue and charcoal streaks. Roomy, easy and made to move.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "d4",
+  "name": "Royal Blue Halter",
+  "cat": "Backless Dera",
+  "color": "Blue",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/blue-back.jpg"
+  ],
+  "desc": "Rich royal blue with chocolate feather streaks. Open back with tie waist and halter neck.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "d5",
+  "name": "Forest Reed Halter",
+  "cat": "Backless Dera",
+  "color": "Green",
+  "price": 700,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/green-back.jpg"
+  ],
+  "desc": "Deep forest green with bronze reed strokes running the length of the skirt. Open tie back.",
+  "fabric": "Hand-dyed"
+ },
+ {
+  "id": "d6",
+  "name": "Onyx and Sand Halter",
+  "cat": "Backless Dera",
+  "color": "Black",
+  "price": 650,
+  "sale": 0,
+  "status": "available",
+  "hot": false,
+  "images": [
+   "images/black-back.jpg"
+  ],
+  "desc": "Black base with sand-toned geometric dye work. Striking symmetry, open back, evening ready.",
+  "fabric": "Hand-dyed"
+ }
+]
