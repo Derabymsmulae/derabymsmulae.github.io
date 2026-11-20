@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.gstatic.com https://apis.google.com; connect-src 'self' https:; img-src 'self' data: blob: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; frame-src https:; object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dera by Ms Mulae | Hand-dyed deras for women, Kenya and worldwide</title>
-<meta name="description" content="Hand-dyed deras for women: backless, nursing, everyday and more. See every piece front and back. Order online from Kenya or worldwide.">
+<meta name="description" content="Hand-dyed and printed deras for women: backless, nursing, everyday and more. See every piece front and back. Order online from Kenya or worldwide.">
 <meta property="og:type" content="website"><meta property="og:title" content="Dera by Ms Mulae"><meta property="og:description" content="Hand-dyed deras for women. Elegance meets simplicity."><meta property="og:image" content="images/logo-full.png"><meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64.png?v=2"><link rel="icon" type="image/png" sizes="512x512" href="images/favicon-512.png?v=2"><link rel="apple-touch-icon" href="images/apple-touch-icon.png?v=2"><meta name="theme-color" content="#f7d4d0"><link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64.png?v=2"><link rel="icon" type="image/png" sizes="512x512" href="images/favicon-512.png?v=2"><link rel="apple-touch-icon" href="images/apple-touch-icon.png?v=2"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="theme-color" content="#f7d4d0"><link rel="manifest" href="manifest.webmanifest">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Dera by Ms Mulae","logo":"images/logo-full.png","sameAs":["https://www.instagram.com/dera_mulae"],"address":{"@type":"PostalAddress","addressLocality":"Ruiru","addressCountry":"KE"}}</script>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://res.cloudinary.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
 <style>
 :root{--ink:#16110f;--text:#2a2220;--mute:#5d5250;--berry:#a85a62;--berry-d:#8a444c;--sun:#e8b9a6;--rose:#c9808a;--blush:#f7d4d0;--paper:#fff;--warm:#fbefec;--line:#efdad5;--ok:#1c7a4f}
@@ -212,15 +213,80 @@ footer{background:var(--blush);border-top:0}footer h4{font:600 .72rem 'DM Sans';
 @media(max-width:980px){.hero2{grid-template-columns:1fr}.him{aspect-ratio:4/5;min-height:0}.edit{grid-template-columns:1fr}.edit .eimg{min-height:420px}.cts,.grid{grid-template-columns:repeat(2,1fr)}.vals{grid-template-columns:1fr 1fr}.vals div:nth-child(2){border-right:0}.vals div:nth-child(-n+2){border-bottom:1px solid var(--line)}.ig{grid-template-columns:repeat(3,1fr)}.hd{grid-template-columns:auto 1fr auto}.logo{justify-self:center}.hl{display:contents}.hl .burger{grid-column:1;grid-row:1}.logo{grid-column:2;grid-row:1}.hr{grid-column:3;grid-row:1}.search{grid-column:1/-1;grid-row:2;max-width:none;justify-self:stretch}.burger{display:flex}.cats{display:none}.grid{gap:34px 12px}}
 @media(max-width:560px){.logo b{font-size:1.45rem}.logo img{width:40px;height:40px}}
 .qp{width:92px;padding:7px 8px}.qpl{font-size:.7rem;margin:0;font-weight:600}
+.skip{position:absolute;left:-999px;top:8px;background:#14100f;color:#fff;padding:10px 16px;z-index:999}.skip:focus{left:8px}
+.aibtn{position:fixed;left:16px;bottom:16px;z-index:36;background:#f7d4d0;color:#14100f;border:1.5px solid #14100f;padding:13px 20px;font:600 .74rem 'DM Sans';letter-spacing:.12em;text-transform:uppercase;cursor:pointer;box-shadow:0 8px 22px rgba(0,0,0,.2)}
+.aipanel{padding:0;position:fixed;left:16px;bottom:72px;z-index:60;width:min(390px,calc(100vw - 32px));height:min(580px,72vh);background:#fff;border:1px solid #14100f;box-shadow:0 20px 50px rgba(0,0,0,.28);display:flex;flex-direction:column}.aipanel[hidden]{display:none}
+.aihead{background:#14100f;color:#fff;padding:14px 16px;display:flex;justify-content:space-between;gap:10px;align-items:start}.aihead b{font:500 1.15rem 'Playfair Display',serif;display:block}.aihead small{color:#e9d3cf;font-size:.74rem;line-height:1.3;display:block;margin-top:2px}.aihead button{background:none;border:0;color:#fff;font-size:1.5rem;cursor:pointer;line-height:1}
+.ailog{flex:1;overflow:auto;padding:14px;display:flex;flex-direction:column;gap:10px;background:#fbf7f4}.aim{max-width:92%;padding:10px 13px;font-size:.92rem;line-height:1.45}.aim.bot{background:#fff;border:1px solid #e8dcd6;align-self:flex-start}.aim.me{background:#14100f;color:#fff;align-self:flex-end}.aim a{color:#a8625b;font-weight:600}
+.mc{display:grid;grid-template-columns:54px 1fr;gap:10px;align-items:center;margin-top:8px;padding-top:8px;border-top:1px solid #efe3de}.mc img{width:54px;aspect-ratio:3/4;object-fit:cover}.mc .mb{grid-column:1/-1;display:flex;gap:8px}.mb button{border:1px solid #14100f;background:#fff;padding:5px 12px;font:600 .72rem 'DM Sans';letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.mb button:hover{background:#14100f;color:#fff}
+.aichips{display:flex;gap:6px;flex-wrap:wrap;padding:8px 12px;border-top:1px solid #efe3de;background:#fff;max-height:92px;overflow:auto}.aichips button{border:1px solid #e0cfc9;background:#fff;padding:5px 11px;font:500 .8rem 'DM Sans';cursor:pointer}.aichips button:hover{border-color:#14100f}
+.aiform{display:flex;gap:8px;padding:10px 12px;border-top:1px solid #14100f;background:#fff}.aiform input{flex:1;padding:10px 12px}
+@media(max-width:560px){.aibtn{padding:13px 14px}.aipanel{left:8px;width:calc(100vw - 16px);bottom:66px}}
+/* ===== v4 premium: gradient system ===== */
+:root{--g-rose:linear-gradient(100deg,#6f372b 0%,#a55f4e 45%,#7c3f31 75%,#a55f4e 100%);--g-rose-light:linear-gradient(100deg,#f6cdbd 0%,#fff1ea 50%,#eeb6a3 100%);--g-blush:radial-gradient(120% 100% at 90% 6%,#fff3ef 0%,rgba(255,243,239,0) 58%),radial-gradient(100% 90% at 6% 100%,#e9a595 0%,rgba(233,165,149,0) 64%),linear-gradient(160deg,#f9dbd6 0%,#f1bfb6 100%);--g-ink:linear-gradient(135deg,#14100f 0%,#2a181d 58%,#3b2126 100%);--g-line:linear-gradient(90deg,#8f4b3b,#e2a891 55%,rgba(226,168,145,0));--g-btn:linear-gradient(120deg,#8f4b3b 0%,#b97260 100%);--g-warm:linear-gradient(120deg,#f6ece7 0%,#fae0da 100%)}
+.ann{background:var(--g-ink);color:#f5dcd6}
+header::after{content:"";display:block;height:2px;background:var(--g-line)}
+.btn{background:var(--g-ink);border-color:#14100f}.btn:hover{background:var(--g-btn);border-color:#8f4b3b}.btn.o{background:none}.btn.o:hover{background:var(--g-ink);border-color:#14100f}.btn.w{background:#fff}
+.htxt,.phead{background:var(--g-blush)}
+.htxt h1 em,.phead h1 em,.gd{background:var(--g-rose);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;padding-right:.08em}
+.eyebrow{background:var(--g-rose);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.him::after{content:"";position:absolute;inset:auto 0 0 0;height:34%;background:linear-gradient(180deg,rgba(20,16,15,0),rgba(20,16,15,.62));pointer-events:none}
+.hcap{position:absolute;left:clamp(16px,3vw,36px);bottom:clamp(16px,3vw,32px);z-index:2;color:#fff;text-align:left;font:600 .78rem 'DM Sans';letter-spacing:.14em;text-transform:uppercase}.hcap b{display:block;font:500 1.5rem 'Playfair Display',serif;text-transform:none;letter-spacing:0;margin-top:4px}
+.vals{background:linear-gradient(180deg,#fff,#fbf3ef);border-top:1px solid transparent;border-image:var(--g-line) 1}
+.vals b{background:var(--g-rose);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.sh2 h2::after{content:"";display:block;width:64px;height:3px;margin-top:14px;background:var(--g-line)}
+.edit{background:var(--g-warm)}
+.ct1 .tp{background:var(--g-blush)}.ct1 .tp::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,16,15,0) 62%,rgba(20,16,15,.28));pointer-events:none}
+.card .ph{box-shadow:0 1px 0 rgba(143,75,59,.12)}.card:hover .ph{box-shadow:0 22px 40px -24px rgba(143,75,59,.7)}
+.bd .sl{background:var(--g-btn);color:#fff}
+.pcard{background:linear-gradient(160deg,#fff 0%,#fbefeb 100%);border:1px solid #f0d9d3}
+footer{background:linear-gradient(180deg,#f9dbd6 0%,#eeb8ad 100%);border-top:0}footer::before{content:"";display:block;height:3px;background:var(--g-line);margin-top:-7vh;margin-bottom:7vh}
+.st::before{background:var(--g-rose);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+::selection{background:#f3c9b5}:focus-visible{outline:2px solid #a55f4e;outline-offset:3px}
+.modal .info .pr{background:var(--g-rose);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.rel{margin-top:22px;padding-top:16px;border-top:1px solid #efe0da}.rel h4{font:600 .72rem 'DM Sans';letter-spacing:.2em;text-transform:uppercase;color:#7c3f31;margin-bottom:10px}.relg{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.relg button{background:none;border:0;text-align:left;cursor:pointer;font:500 .8rem 'DM Sans';color:#14100f}.relg img{width:100%;aspect-ratio:3/4;object-fit:cover;margin-bottom:6px}.relg span{display:block;line-height:1.25}.relg b{display:block;margin-top:2px}
+/* assistant */
+.aibtn{background:var(--g-ink);color:#fff;border:0;box-shadow:0 10px 26px -8px rgba(143,75,59,.6)}.aibtn span{background:var(--g-rose-light);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.ainudge{position:fixed;left:16px;bottom:72px;z-index:37;background:#fff;border:1px solid #14100f;box-shadow:0 14px 30px -12px rgba(0,0,0,.35);display:flex;align-items:center}.ainudge[hidden]{display:none}.ainudge button{background:none;border:0;padding:12px 14px;font:500 .88rem 'DM Sans';cursor:pointer;color:#14100f}.ainudge button+button{padding:12px 12px;border-left:1px solid #efe0da;font-size:1.2rem}
+.aipanel{border:0;box-shadow:0 30px 70px -20px rgba(20,16,15,.5);width:min(410px,calc(100vw - 32px))}
+.aihead{background:var(--g-ink);align-items:center;gap:12px;padding:14px 16px;border-bottom:2px solid transparent;border-image:var(--g-line) 1}.aihead img{border-radius:50%;border:1.5px solid #e2a891}.aihead>div{flex:1}.aihead small{margin-top:3px}
+.ailog{background:linear-gradient(180deg,#fdf8f6,#faeeea)}
+.aim.bot{border:0;box-shadow:0 1px 0 #efe0da;border-radius:2px 14px 14px 14px}.aim.me{background:var(--g-btn);border-radius:14px 2px 14px 14px}
+.aim b{color:inherit}.aim .mc{grid-template-columns:64px 1fr}.aim .mc img{width:64px}.mc>div span{display:block;font-weight:600}.mc>div em{font-style:normal;color:#a55f4e;font-size:.75rem}.mc small{color:#6b5a55;font-size:.74rem}
+.mb button{border-radius:0}.mb button:first-child{background:#fff}.mb button+button{background:var(--g-ink);color:#fff;border-color:#14100f}
+.typing{display:flex;gap:5px;padding:14px 16px}.typing i{width:7px;height:7px;border-radius:50%;background:#a55f4e;opacity:.5;animation:td 1s infinite}.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}@keyframes td{50%{opacity:1;transform:translateY(-3px)}}
+@media(prefers-reduced-motion:reduce){.typing i{animation:none}}
+.aichips button{border-radius:99px;background:#fff}.aichips button:hover{background:var(--g-ink);color:#fff;border-color:#14100f}
+.aifoot{padding:6px 12px 9px;font-size:.68rem;color:#7a6a65;background:#fff;line-height:1.3}
+.isadmin .aibtn,.isadmin .aipanel,.isadmin .ainudge{display:none!important}
+/* ===== v5: search, policies, editor, cookie notice ===== */
+.skel{aspect-ratio:3/4;background:var(--g-warm)}
+.search .sbtn{position:absolute;left:0;top:50%;transform:translateY(-50%);background:none;border:0;padding:8px 6px;line-height:0;cursor:pointer;z-index:2}.search .sbtn svg{position:static;transform:none;width:17px}
+.sug{position:absolute;left:0;top:calc(100% + 6px);background:#fff;border:1px solid #14100f;box-shadow:0 18px 40px -16px rgba(0,0,0,.4);z-index:70;max-height:70vh;overflow:auto;width:min(380px,92vw)}
+.sug[hidden]{display:none}.sug button{display:grid;grid-template-columns:36px 1fr auto;gap:10px;align-items:center;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid #efe3de;padding:8px 10px;cursor:pointer;font:500 .88rem 'DM Sans';color:#14100f}.sug button:hover,.sug button:focus{background:#fbf3ef}.sug img{width:36px;height:48px;object-fit:cover}.sug small{display:block;color:#7a6a65;font-size:.72rem}.sug .sgall{display:block;font-weight:600;color:#8f4b3b;text-align:center;border-bottom:0}.sgnone{padding:12px;font-size:.88rem;color:#5d4f4b}
+.sgs{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:14px}
+#grid{scroll-margin-top:130px}
+.agree{display:flex;gap:10px;align-items:flex-start;font-size:.85rem;margin:14px 0 0;font-weight:500}.agree input{width:auto;margin-top:3px}.lk2{background:none;border:0;padding:0;font:inherit;color:#8f4b3b;text-decoration:underline;cursor:pointer}
+.lk{display:block;background:none;border:0;padding:3px 0;color:#14100f;cursor:pointer;font:500 1rem 'DM Sans';text-align:left}.lk:hover{color:#8f4b3b}
+.fg{grid-template-columns:1.4fr 1fr 1fr 1fr 1fr}
+.polbox{background:#fff;max-width:720px;width:100%;max-height:90vh;display:flex;flex-direction:column;position:relative;padding:28px 28px 18px}.polbox h2{font:500 1.9rem 'Playfair Display',serif;margin-bottom:12px;padding-right:40px}.polbody{overflow:auto;flex:1;padding-right:8px;font-size:.95rem;line-height:1.6}.polbody h4{font:600 .78rem 'DM Sans';letter-spacing:.16em;text-transform:uppercase;color:#8f4b3b;margin:18px 0 6px}.polbody ul{padding-left:20px}.polbody p{margin:6px 0}.polfoot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:14px;padding-top:12px;border-top:1px solid #efe3de;font-size:.8rem;color:#7a6a65}
+#polm{z-index:140}
+.ckb{position:fixed;left:0;right:0;bottom:0;z-index:55;background:#14100f;color:#f5e6e1;padding:12px 16px;display:flex;gap:14px;align-items:center;justify-content:center;flex-wrap:wrap;font-size:.86rem}.ckb[hidden]{display:none}.ckb p{max-width:760px}.ckb .lk2{color:#f3c9b5}
+.pebox{background:#fff;max-width:860px;width:100%;max-height:94vh;overflow:auto;padding:26px;position:relative}.pecard{border:1px solid #e8dcd6;padding:16px;margin-bottom:16px;background:#fff}.pecard h3{font:600 .8rem 'DM Sans';letter-spacing:.16em;text-transform:uppercase;color:#7c3f31;margin-bottom:10px}.peacts{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}.peacts input{flex:1;min-width:180px}.di button:disabled{opacity:.35;cursor:not-allowed}.di>div{display:flex;gap:4px;justify-content:center;flex-wrap:wrap}
+#pe{z-index:150}
+@media(max-width:980px){.fg{grid-template-columns:1fr 1fr}}
+body.isadmin .ckb{display:none!important}body.hasck .aibtn,body.hasck .wa{bottom:84px}body.hasck .ainudge,body.hasck .aipanel{bottom:140px}
+#home>section:not(.hero2){content-visibility:auto;contain-intrinsic-size:auto 700px}
 </style>
 </head>
 <body>
+<a class="skip" href="#home">Skip to main content</a>
 <div id="shop">
-<div class="ann" id="ann">Hand-dyed deras photographed front and back | International orders welcome | M-Pesa in Kenya | <a href="https://wa.me/254797110867" target="_blank" rel="noopener">Order on WhatsApp</a></div>
+<div class="ann" id="ann">Hand-dyed and printed deras | International orders welcome | M-Pesa in Kenya | <a href="https://wa.me/254797110867" target="_blank" rel="noopener">Order on WhatsApp</a></div>
 <header>
  <div class="wrap hd">
   <div class="hl"><button class="ib burger" id="burger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-   <form class="search" onsubmit="return false" role="search"><svg viewBox="0 0 24 24" fill="none" stroke="#14100f" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" type="search" placeholder="Search" aria-label="Search deras"></form></div>
+   <form class="search" id="sform" role="search" autocomplete="off"><button type="submit" class="sbtn" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="#14100f" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button><input id="q" type="search" placeholder="Search deras" aria-label="Search deras" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false"><div id="sug" class="sug" hidden role="listbox" aria-label="Suggestions"></div></form></div>
   <a class="logo home" href="./" id="top" aria-label="Dera by Ms Mulae, go to home page"><img src="images/favicon-512.png?v=2" width="46" height="46" alt=""><span><b>Dera</b><i>by Ms Mulae</i></span></a>
   <div class="hr"><select id="cur" aria-label="Currency"><option value="KES">KES</option><option value="USD">USD</option><option value="GBP">GBP</option><option value="EUR">EUR</option></select>
    <button class="ib" id="openWish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-8-5.3-8-11a4.5 4.5 0 018-2.8A4.5 4.5 0 0120 10c0 5.7-8 11-8 11z"/></svg><em id="wc">0</em></button>
@@ -231,26 +297,16 @@ footer{background:var(--blush);border-top:0}footer h4{font:600 .72rem 'DM Sans';
 
 <main id="home">
 <section class="hero2" style="padding:0" aria-label="Welcome">
- <button class="him" data-go="All" aria-label="Shop the collection"><img id="himg" src="images/teal-front.jpg" alt="Dera by Ms Mulae hand-dyed dera"></button>
- <div class="htxt"><div class="eyebrow">Dera by Ms Mulae</div><h1>The art of the <em>dera</em></h1><p>Hand-dyed, flowing and made for the woman who loves comfort with style. Every piece is photographed front and back, so you always know what you are getting.</p>
+ <button class="him" data-go="All" aria-label="Shop the collection"><img id="himg" fetchpriority="high" decoding="async" src="images/teal-front.jpg" alt="Dera by Ms Mulae hand-dyed dera"><span class="hcap" id="hcap"></span></button>
+ <div class="htxt"><div class="eyebrow">Dera by Ms Mulae</div><h1>The art of the <em>dera</em></h1><p>Hand-dyed and printed deras, flowing and made for the woman who loves comfort with style. Every piece is photographed front and back, so you always know what you are getting.</p>
  <div class="cta"><button class="btn" data-go="All">Shop the collection</button><button class="btn o" data-go="Backless Dera">Backless deras</button></div></div>
 </section>
-<div class="vals"><div><b>Front and back</b><span>Every piece, both views</span></div><div><b>Worldwide</b><span>International orders welcome</span></div><div><b>Easy payment</b><span>M-Pesa in Kenya</span></div><div><b>One of a kind</b><span>Unique hand-dyed patterns</span></div></div>
 
 <section><div class="wrap"><div class="sh2"><h2>Shop by category</h2></div><div class="cts" id="ct"></div></div></section>
-<section style="padding-top:0"><div class="wrap"><div class="sh2"><h2>New arrivals</h2><a href="#shop">View all</a></div><div class="grid" id="fgrid"></div></div></section>
-<section class="edit" style="padding:0"><div class="eimg"><img id="eimg" src="images/purple-front.jpg" alt="Hand-dyed dera" loading="lazy"></div><div class="etxt"><div class="eyebrow">Our story</div><h2>Where elegance meets simplicity</h2><p>Dera by Ms Mulae is a Kenyan fashion brand from Ruiru, creating flowing deras that feel as beautiful as they look. Quality made to last, priced so elegance feels within reach.</p><div><a class="btn o" href="#story">Read our story</a></div></div></section>
+<section style="padding-top:0"><div class="wrap"><div class="sh2"><h2>New arrivals</h2><a href="#shop">View all</a></div><div class="grid" id="fgrid"><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div></div></div></section>
+<section class="edit" style="padding:0"><div class="eimg"><img id="eimg" src="images/purple-front.jpg" alt="Hand-dyed dera" loading="lazy"></div><div class="etxt"><div class="eyebrow">Our story</div><h2 id="hsT"></h2><p id="hsP"></p><div><a class="btn o" href="#story">Read our story</a></div></div></section>
 <section><div class="wrap"><div class="sh2"><h2>On Instagram</h2><a href="https://www.instagram.com/dera_mulae" target="_blank" rel="noopener">@dera_mulae</a></div><div class="ig" id="ig"></div></div></section>
-<section id="how" style="padding-top:0"><div class="wrap"><div class="sh2"><h2>How to order</h2></div>
- <div class="steps"><div class="st"><h3>Choose</h3><p>Pick your deras and add them to your cart.</p></div><div class="st"><h3>Pay</h3><p>In Kenya, pay by M-Pesa and enter the code. Elsewhere, we confirm payment options with you on WhatsApp.</p></div><div class="st"><h3>We confirm</h3><p>Your order reaches us and WhatsApp. We confirm payment and pack your dera.</p></div><div class="st"><h3>Delivery</h3><p>Bolt or Uber within Kenya. International shipping is arranged with you personally.</p></div></div></div></section>
-<section id="faq" style="padding-top:0"><div class="wrap" style="max-width:900px"><div class="sh2"><h2>Questions</h2></div>
- <details><summary>Do you ship internationally?</summary><p>International orders are welcome. Place your order and we confirm shipping cost, delivery time and payment options with you on WhatsApp before you pay anything.</p></details>
- <details><summary>What is a Nursing Dera?</summary><p>A dera designed for easy breastfeeding access, comfortable and flowing. Ask us on WhatsApp about current nursing pieces.</p></details>
- <details><summary>How much is delivery in Kenya?</summary><p>We deliver by Bolt or Uber. The ride fee depends on your location and is paid by you. We confirm it with you on WhatsApp.</p></details>
- <details><summary>How do I pay?</summary><p>In Kenya, pay the total by M-Pesa to the number shown in your cart, then enter the confirmation code. International customers: we confirm payment options on WhatsApp.</p></details>
- <details><summary>What size are the deras?</summary><p>Our deras are loose and free-flowing and suit most sizes. Message us for measurements of any piece.</p></details>
- <details><summary>What do Reserved and Sold mean?</summary><p>Reserved means another customer is buying that dera. Sold means it has gone. Each dye pattern is unique, so message us if you would like something similar.</p></details>
- <details><summary>Is the dera exactly like the photo?</summary><p>Yes, the photos show the actual piece. Each dye pattern is unique, so once a design sells out it will not return in the same pattern.</p></details></div></section>
+<section id="faq" style="padding-top:0"><div class="wrap" style="max-width:900px"><div class="sh2"><h2>Questions</h2></div><div id="faqList"></div></div></section>
 </main>
 
 <div class="page" id="pg-shop" hidden><div class="wrap"><div class="shead"><div class="eyebrow">The collection</div><h1 id="stitle">All deras</h1><p id="sdesc"></p></div>
@@ -259,8 +315,7 @@ footer{background:var(--blush);border-top:0}footer h4{font:600 .72rem 'DM Sans';
  <select id="av" aria-label="Availability"><option value="">All availability</option><option value="available">Available</option><option value="reserved">Reserved</option><option value="sold">Sold</option></select>
  <select id="sort" aria-label="Sort"><option value="new">Newest</option><option value="lo">Price: low to high</option><option value="hi">Price: high to low</option></select></div></div>
  <div class="grid" id="grid" aria-live="polite"></div><div id="more" style="text-align:center;margin-top:40px"></div></div></div>
-<div class="page" id="pg-story" hidden><div class="phead"><h1>Where elegance meets <em>simplicity</em></h1><p>Dera by Ms Mulae is a Kenyan fashion brand from Ruiru, made for women who love comfort, beauty and style.</p></div>
-<div class="wrap"><div class="pgrid"><div class="pcard"><h3>Made to last</h3><p>Quality deras with rich dye work and colours that stand out, made to be loved for a long time.</p></div><div class="pcard"><h3>Priced for you</h3><p>From KES 450 to KES 1,000, because looking elegant should never feel out of reach.</p></div><div class="pcard"><h3>Modest and stylish</h3><p>Flowing cuts that move with you, from everyday comfort to special occasions.</p></div><div class="pcard"><h3>Shop with confidence</h3><p>Every dera is photographed front and back, so you see exactly what you are getting.</p><button class="btn" data-go="All">Shop the collection</button></div></div></div></div>
+<div class="page" id="pg-story" hidden><div id="storyBody"></div></div>
 <div class="page" id="pg-delivery" hidden><div class="phead"><h1>Delivery and <em>payment</em></h1><p>Simple, clear and stress free from cart to doorstep.</p></div>
 <div class="wrap"><div class="pgrid"><div class="pcard"><h3>Pay by M-Pesa (Kenya)</h3><p>Send the total to our M-Pesa number shown in your cart, then enter the confirmation code when you place your order.</p></div><div class="pcard"><h3>Bolt or Uber delivery</h3><p>Within Kenya we book the ride for you. The ride fee depends on your location and is paid by you.</p></div><div class="pcard"><h3>International orders</h3><p>We confirm shipping cost, delivery time and payment options with you on WhatsApp before you pay anything.</p></div><div class="pcard"><h3>Reserved and Sold</h3><p>Reserved means another customer is buying that dera. Sold means it has gone. Each dye pattern is unique.</p></div><div class="pcard"><h3>Need help?</h3><p>Message us any time and we will sort it out with you.</p><a class="btn" href="https://wa.me/254797110867" target="_blank" rel="noopener">WhatsApp us</a></div></div></div></div>
 <div class="page" id="pg-reach" hidden><div class="phead"><h1>Let us <em>talk</em></h1><p>DM to shop, ask about a dera, or tell us what you are looking for.</p></div>
@@ -270,7 +325,8 @@ footer{background:var(--blush);border-top:0}footer h4{font:600 .72rem 'DM Sans';
  <div class="fg">
   <div><a class="home" href="./" aria-label="Dera by Ms Mulae, go to home page"><img src="images/logo-full.png?v=2" width="250" height="189" alt="Dera by Ms Mulae. Fashion, style, you." style="width:min(250px,100%);height:auto"></a><p style="margin-top:14px;max-width:34ch">Where elegance meets simplicity. Ladies' fashion from Ruiru, Kenya, for women everywhere.</p></div>
   <div><h4>Shop</h4><div id="fcats"></div></div>
-  <div><h4>Help</h4><a href="#how">How to order</a><a href="#faq">FAQ</a><a href="#delivery">Delivery and payment</a><a href="#story">Our story</a><a href="#reach">Contact</a></div>
+  <div><h4>Help</h4><a href="#faq">Questions</a><a href="#delivery">Delivery and payment</a><a href="#story">Our story</a><a href="#reach">Contact</a></div>
+  <div><h4>Legal</h4><button type="button" class="lk" data-pol="terms">Terms and Conditions</button><button type="button" class="lk" data-pol="returns">Returns and Refunds</button><button type="button" class="lk" data-pol="privacy">Privacy Policy</button><button type="button" class="lk" data-pol="cookies">Cookies</button></div>
   <div><h4>Connect</h4><a href="tel:+254797110867">0797 110 867</a><a href="https://wa.me/254797110867" target="_blank" rel="noopener">WhatsApp</a><a href="https://www.instagram.com/dera_mulae" target="_blank" rel="noopener">Instagram</a><a id="tt2" href="https://www.tiktok.com/@dera_mulae" target="_blank" rel="noopener">TikTok</a></div>
  </div>
  <div class="cp"><span>&copy; <span id="yr"></span> Dera by Ms Mulae. Prices shown in KES unless you choose another currency.</span><a href="#admin" style="display:inline">Owner login</a></div>
@@ -278,10 +334,21 @@ footer{background:var(--blush);border-top:0}footer h4{font:600 .72rem 'DM Sans';
 <a class="wa" href="https://wa.me/254797110867?text=Hello%20Dera%20by%20Ms%20Mulae" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">Chat with us</a>
 </div>
 
+<div id="aiNudge" class="ainudge" hidden><button type="button" id="aiNudgeGo">Need help choosing? <b>Ask Dera</b></button><button type="button" id="aiNudgeX" aria-label="Dismiss">&times;</button></div>
+<button id="aiBtn" class="aibtn" aria-label="Ask Dera, our virtual assistant" aria-expanded="false" aria-controls="aiPanel"><span aria-hidden="true">&#10022;</span> Ask Dera</button>
+<section id="aiPanel" class="aipanel" role="dialog" aria-label="Dera virtual assistant" hidden>
+ <div class="aihead"><img src="images/favicon-64.png?v=2" alt="" width="40" height="40"><div><b>Dera Stylist</b><small id="aiMode">Virtual assistant | replies instantly</small></div><button id="aiX" type="button" aria-label="Close assistant">&times;</button></div>
+ <div id="aiLog" class="ailog" role="log" aria-live="polite"></div><div id="aiChips" class="aichips"></div>
+ <form id="aiForm" class="aiform"><input id="aiIn" placeholder="Ask about deras, prices, delivery..." autocomplete="off" aria-label="Your message" maxlength="200"><button class="btn sm">Send</button></form>
+ <div class="aifoot">Automated assistant. Check price and availability at checkout. For anything it cannot answer, it connects you to Ms Mulae on WhatsApp.</div>
+</section>
+<div class="mask" id="polm" role="dialog" aria-modal="true" aria-labelledby="polt"><div class="polbox"><button class="x" id="polx" type="button" aria-label="Close">&times;</button><h2 id="polt"></h2><div id="polb" class="polbody"></div><div class="polfoot"><span id="pold"></span><button class="btn sm" id="polok" type="button">Close</button></div></div></div>
+<div class="mask" id="pe" role="dialog" aria-modal="true" aria-label="Edit dera"><div class="pebox"><button class="x" id="pex" type="button" aria-label="Close">&times;</button><div id="pebody"></div></div></div>
+<div id="ckb" class="ckb" role="region" aria-label="Cookie notice" hidden><p>We use essential browser storage for your cart and preferences. No advertising cookies. <button type="button" class="lk2" data-pol="cookies">Read more</button> | <button type="button" class="lk2" data-pol="privacy">Privacy</button></p><button class="btn sm" id="ckok" type="button">OK, got it</button></div>
 <div class="mask" id="pm"><div class="modal" role="dialog" aria-modal="true" id="pbody"></div></div>
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-label="Cart"><button class="x" id="closeCart" aria-label="Close cart">&times;</button><h2>Your cart</h2><div id="lines"></div><div id="checkout"></div></aside>
-<aside class="drawer left mnav" id="mnav" aria-label="Menu"><button class="x" id="closeM" aria-label="Close menu">&times;</button><h2>Menu</h2><div id="mcats"></div><a href="#story">Our story</a><a href="#how">How to order</a><a href="#delivery">Delivery and payment</a><a href="#faq">FAQ</a><a href="#reach">Contact</a></aside>
+<aside class="drawer left mnav" id="mnav" aria-label="Menu"><button class="x" id="closeM" aria-label="Close menu">&times;</button><h2>Menu</h2><div id="mcats"></div><a href="#story">Our story</a><a href="#delivery">Delivery and payment</a><a href="#faq">Questions</a><a href="#reach">Contact</a><button type="button" data-pol="terms">Terms and Conditions</button><button type="button" data-pol="returns">Returns and Refunds</button><button type="button" data-pol="privacy">Privacy Policy</button></aside>
 <div class="toast" id="toast" role="status"></div>
 
 <section id="admin"><div class="wrap">
@@ -319,16 +386,18 @@ const PK='dera4_products',OK='dera4_orders',newId=()=>'p'+Date.now()+Math.random
 /* data layer: whole catalogue lives in ONE Firestore document, so each visitor costs a single read */
 const CAT=()=>fs.collection('shop').doc('catalog');
 const DB={
- async products(){if(fb){const s=await CAT().get();return s.exists?(s.data().items||[]):SAMPLE.slice()}return LS.get(PK,SAMPLE)},
- async mutate(fn){if(fb){await fs.runTransaction(async t=>{const d=await t.get(CAT());let items=d.exists?d.data().items||[]:SAMPLE.slice();items=fn(items);if(JSON.stringify(items).length>950000)throw new Error('Catalogue is full. Use Cloudinary image links to keep it small.');t.set(CAT(),{items,updated:Date.now()})});return}
+ async products(force){if(fb){let c=null;try{c=force?null:JSON.parse(localStorage.getItem('dera_cat_v1'))}catch(e){}if(c&&Date.now()-c.t<120000)return c.items;try{const s=await CAT().get();const items=s.exists?(s.data().items||[]):SAMPLE.slice();try{localStorage.setItem('dera_cat_v1',JSON.stringify({t:Date.now(),items}))}catch(e){}return items}catch(e){if(c)return c.items;throw e}}return LS.get(PK,SAMPLE)},
+ async mutate(fn){if(fb){await fs.runTransaction(async t=>{const d=await t.get(CAT());let items=d.exists?d.data().items||[]:SAMPLE.slice();items=fn(items);if(JSON.stringify(items).length>950000)throw new Error('Catalogue is full. Use Cloudinary image links to keep it small.');t.set(CAT(),{items,updated:Date.now()})});try{localStorage.removeItem('dera_cat_v1')}catch(e){}return}
   LS.set(PK,fn(LS.get(PK,SAMPLE)))},
  saveProducts(arr){return this.mutate(items=>{arr.forEach(p=>{p.ts=p.ts||Date.now();const i=p.id?items.findIndex(x=>x.id===p.id):-1;if(i>=0)items[i]=p;else{p.id=p.id||newId();items.unshift(p)}});return items})},
  saveProduct(p){return this.saveProducts([p])},
+ patch(id,patch){return this.mutate(items=>{const i=items.findIndex(x=>x.id===id);if(i<0)throw new Error('This dera no longer exists');const n={...items[i],...patch};delete n.front;delete n.back;delete n.stock;Object.keys(n).forEach(k=>{if(n[k]===undefined)delete n[k]});items[i]=n;return items})},
  delProduct(id){return this.mutate(items=>items.filter(x=>x.id!==id))},
- async settings(){if(fb){const s=await fs.collection('shop').doc('settings').get();return s.exists?s.data():{}}return LS.get('dera4_settings',{})},
- async saveSettings(o){if(fb)return fs.collection('shop').doc('settings').set(o);LS.set('dera4_settings',o)},
- async addOrder(o){if(fb)return fs.collection('orders').add(o);const a=LS.get(OK,[]);o.id='o'+Date.now();a.unshift(o);LS.set(OK,a)},
- async orders(){if(fb){const s=await fs.collection('orders').orderBy('created','desc').get();return s.docs.map(d=>({...d.data(),id:d.id}))}return LS.get(OK,[])},
+ async settings(force){if(fb){let c=null;try{c=force?null:JSON.parse(localStorage.getItem('dera_set_v1'))}catch(e){}if(c&&Date.now()-c.t<120000)return c.v;try{const s=await fs.collection('shop').doc('settings').get();const v=s.exists?s.data():{};try{localStorage.setItem('dera_set_v1',JSON.stringify({t:Date.now(),v}))}catch(e){}return v}catch(e){if(c)return c.v;throw e}}return LS.get('dera4_settings',{})},
+ async saveSettings(o,del){if(fb){const f={...o};(del||[]).forEach(k=>f[k]=firebase.firestore.FieldValue.delete());if(!Object.keys(f).length)return;await fs.collection('shop').doc('settings').set(f,{mergeFields:Object.keys(f)});try{localStorage.removeItem('dera_set_v1')}catch(e){}return}const cur=LS.get('dera4_settings',{});const n={...cur,...o};(del||[]).forEach(k=>delete n[k]);LS.set('dera4_settings',n)},
+ async addOrder(o,retry){const id=o.oid;delete o.oid;if(fb){try{await fs.collection('orders').doc(id).set(o)}catch(e){if(retry&&e&&e.code==='permission-denied')return;throw e}return}o.id=id;const a=LS.get(OK,[]);a.unshift(o);LS.set(OK,a)},
+ async orders(lim){if(fb){const s=await fs.collection('orders').orderBy('created','desc').limit(lim||100).get();return s.docs.map(d=>({...d.data(),id:d.id}))}return LS.get(OK,[]).slice(0,lim||100)},
+ async latestOrderTs(){if(fb){const s=await fs.collection('orders').orderBy('created','desc').limit(1).get();return s.empty?0:(s.docs[0].data().created||0)}const a=LS.get(OK,[]);return a[0]?a[0].created:0},
  async setOrder(id,st){if(fb)return fs.collection('orders').doc(id).update({status:st});const a=LS.get(OK,[]);a.find(x=>x.id===id).status=st;LS.set(OK,a)},
  async delOrder(id){if(fb)return fs.collection('orders').doc(id).delete();LS.set(OK,LS.get(OK,[]).filter(x=>x.id!==id))}
 };
@@ -341,9 +410,9 @@ function toast(m){const t=$('#toast');t.textContent=m;t.style.display='block';cl
 const ph=(p,both=true,w=600,cls='')=>{const a=imgs(p);return `<div class="ph ${cls}">${a.slice(0,both?2:1).map((s,i)=>`<img loading="lazy" decoding="async" src="${esc(cdn(s,w))}" alt="${esc(p.name)} ${a.length>1?(i?'back':'front'):''}">`).join('')}</div>`};
 const HEART='<svg viewBox="0 0 24 24"><path d="M12 21s-8-5.3-8-11a4.5 4.5 0 018-2.8A4.5 4.5 0 0120 10c0 5.7-8 11-8 11z"/></svg>';
 const MP=()=>CFG.mpesaNumber&&CFG.mpesaNumber!=='ADD_YOUR_TILL_OR_NUMBER';
-function applySettings(s){['mpesaLabel','mpesaNumber','mpesaName','tiktok','instagram','announce','rUSD','rGBP','rEUR','intlOn','intlNote'].forEach(k=>{if(s&&s[k])CFG[k]=s[k]});
+function applySettings(s){['mpesaLabel','mpesaNumber','mpesaName','tiktok','instagram','announce','rUSD','rGBP','rEUR','intlOn','intlNote','assistantUrl','storyTitle','storyIntro','storyCards','homeStoryTitle','homeStoryText','faq','pol'].forEach(k=>{if(!s||!s[k])return;if(['instagram','tiktok','assistantUrl'].includes(k)&&!safeHttps(s[k]))return;CFG[k]=s[k]});
  document.querySelectorAll('#tt2,#tt3').forEach(a=>a.href=CFG.tiktok);if(CFG.instagram)document.querySelectorAll('a[href*="instagram.com"]').forEach(a=>a.href=CFG.instagram);
- if(CFG.announce)$('#ann').innerHTML=esc(CFG.announce)+' | <a href="'+wa('Hello Dera by Ms Mulae')+'" target="_blank" rel="noopener">Order on WhatsApp</a>'}
+ if(CFG.announce)$('#ann').innerHTML=esc(CFG.announce)+' | <a href="'+wa('Hello Dera by Ms Mulae')+'" target="_blank" rel="noopener">Order on WhatsApp</a>';renderContent()}
 const wa=t=>`https://wa.me/${CFG.whatsapp}?text=${encodeURIComponent(t)}`;
 /* navigation */
 function navs(){const items=[['All','New in'],...CATS.map(c=>[c,c]),['Hot','Hot Sale'],['Sale','Sale']];
@@ -355,7 +424,7 @@ function navs(){const items=[['All','New in'],...CATS.map(c=>[c,c]),['Hot','Hot 
 function go(k,max){catF=k||'All';maxF=max||0;qF='';avF='';$('#q').value='';$('#av').value='';$('#pr').value=max||'';navs();renderGrid();shut();navTo('#shop')}
 function navTo(h){if(location.hash!==h){try{history.pushState(null,'',h)}catch(x){location.hash=h;return}}route()}
 document.addEventListener('click',e=>{const g=e.target.closest('[data-go]');if(g)go(g.dataset.go);const m=e.target.closest('[data-max]');if(m)go('All',+m.dataset.max)});
-$('#q').oninput=e=>{qF=e.target.value.trim().toLowerCase();renderGrid();if(location.hash!=='#shop')navTo('#shop')};$('#pr').onchange=e=>{maxF=+e.target.value||0;renderGrid()};$('#cur').onchange=e=>{cur=e.target.value;LS.set('dera5_cur',cur);renderGrid(true);renderFeatured();renderCart()};
+$('#pr').onchange=e=>{maxF=+e.target.value||0;renderGrid()};$('#cur').onchange=e=>{cur=e.target.value;LS.set('dera5_cur',cur);renderGrid(true);renderFeatured();renderCart()};
 $('#sort').onchange=e=>{sortF=e.target.value;renderGrid()};$('#av').onchange=e=>{avF=e.target.value;renderGrid()};
 const cardHTML=p=>{const s=st(p),ok=s==='available';return `<article class="card"><div class="cimg">${ph(p,true,600,ok?'':'dim')}
   <div class="bd">${p.hot?'<span class="hotb">Hot</span>':''}${onSale(p)?`<span class="sl">-${pct(p)}%</span>`:''}${s==='reserved'?'<span class="rsv">Reserved</span>':''}${s==='sold'?'<span class="out">Sold</span>':''}</div>
@@ -363,34 +432,39 @@ const cardHTML=p=>{const s=st(p),ok=s==='available';return `<article class="card
   <button class="open" data-id="${esc(p.id)}" aria-label="View ${esc(p.name)}"></button></div>
   <div class="cinfo"><small>${esc(p.cat)}</small><h3>${esc(p.name)}</h3><div class="pr">${KES(eff(p))}${onSale(p)?`<s>${KES(p.price)}</s>`:''}</div>
   <button class="add" data-add="${esc(p.id)}" ${ok?'':'disabled'}>${ok?'Add to cart':s==='reserved'?'Reserved':'Sold'}</button></div></article>`};
+const retryBox=()=>`<div class="empty"><h3>We could not load the collection</h3><p>Please check your connection and try again.</p><button class="btn" type="button" id="retry">Try again</button></div>`;
 function renderGrid(keep){if(!keep)shown=PAGE;
- let a=P.filter(p=>(catF==='All'||(catF==='Sale'?onSale(p):catF==='Hot'?!!p.hot:catF==='Wishlist'?wish.includes(p.id):p.cat===catF))&&(!maxF||eff(p)<=maxF)&&(!avF||st(p)===avF)&&(!qF||(p.name+' '+p.cat+' '+(p.color||'')+' '+(p.desc||'')).toLowerCase().includes(qF)));
+ let a=P.filter(p=>(catF==='All'||(catF==='Sale'?onSale(p):catF==='Hot'?!!p.hot:catF==='Wishlist'?wish.includes(p.id):p.cat===catF))&&(!maxF||eff(p)<=maxF)&&(!avF||st(p)===avF));
+ let partial=false;if(qF){const r=searchP(qF,a);a=r.list.slice();partial=r.partial}
  if(sortF==='lo')a.sort((x,y)=>eff(x)-eff(y));else if(sortF==='hi')a.sort((x,y)=>eff(y)-eff(x));else{const r={available:0,reserved:1,sold:2};a.sort((x,y)=>r[st(x)]-r[st(y)])}
- $('#stitle').textContent=maxF?`Up to ${K(maxF)}`:{All:'All deras',Sale:'On discount',Hot:'Hot sale',Wishlist:'Your saved deras'}[catF]||catF;
- $('#sdesc').textContent=CAT_TXT[catF]||'Hand-dyed, photographed front and back.';$('#res').textContent=a.length+' piece'+(a.length===1?'':'s');
- $('#pills').innerHTML=['All',...CATS].map(c=>`<button class="pill ${c===catF?'on':''}" data-go="${esc(c)}">${esc(c)}</button>`).join('');
- $('#grid').innerHTML=a.length?a.slice(0,shown).map(cardHTML).join(''):
-  `<div class="empty"><h3>${CATS.includes(catF)?'New pieces coming soon':'Nothing found'}</h3><p>${CATS.includes(catF)?`We are adding ${esc(catF)} pieces. Message us and we will tell you the moment they land.`:'Try a different search or category.'}</p><a class="btn" target="_blank" rel="noopener" href="${wa('Hi, I am looking for '+(CATS.includes(catF)?catF:'a dera'))}">Ask on WhatsApp</a></div>`;
+ $('#stitle').textContent=qF?'Results for \u201c'+qF+'\u201d':maxF?`Up to ${K(maxF)}`:{All:'All deras',Sale:'On discount',Hot:'Hot sale',Wishlist:'Your saved deras'}[catF]||catF;
+ $('#sdesc').textContent=qF?(partial?'Closest matches shown. Try fewer or different words.':'Matches for what you typed.'):CAT_TXT[catF]||'Hand-dyed and printed, photographed front and back.';$('#res').textContent=a.length+' piece'+(a.length===1?'':'s');
+ $('#pills').innerHTML=['All',...CATS].map(c=>`<button class="pill ${c===catF&&!qF?'on':''}" data-go="${esc(c)}">${esc(c)}</button>`).join('');
+ const none=qF?`<div class="empty"><h3>No matches for \u201c${esc(qF)}\u201d</h3><p>Try fewer letters, or a colour or style.</p><div class="sgs">${['kaftan','halter','print','blue','green','pink'].map(w=>`<button class="pill" type="button" data-sq="${w}">${w}</button>`).join('')}</div><p style="margin-top:18px"><button class="btn" id="askdera" type="button">Ask Dera</button> <a class="btn o" target="_blank" rel="noopener" href="${wa('Hi, I am looking for '+qF)}">Ask on WhatsApp</a></p></div>`:
+  `<div class="empty"><h3>${CATS.includes(catF)?'New pieces coming soon':'Nothing found'}</h3><p>${CATS.includes(catF)?`We are adding ${esc(catF)} pieces. Message us and we will tell you the moment they land.`:'Try a different category.'}</p><a class="btn" target="_blank" rel="noopener" href="${wa('Hi, I am looking for '+(CATS.includes(catF)?catF:'a dera'))}">Ask on WhatsApp</a></div>`;
+ $('#grid').innerHTML=loadFailed?retryBox():a.length?(partial?`<p class="note" style="grid-column:1/-1;margin:0">Showing the closest matches for \u201c${esc(qF)}\u201d.</p>`:'')+a.slice(0,shown).map(cardHTML).join(''):none;
  $('#more').innerHTML=a.length>shown?`<button class="btn o" id="moreb">Show more (${a.length-shown} left)</button>`:''}
-function renderFeatured(){const r={available:0,reserved:1,sold:2};$('#fgrid').innerHTML=[...P].sort((x,y)=>r[st(x)]-r[st(y)]).slice(0,8).map(cardHTML).join('')}
+function renderFeatured(){if(loadFailed){$('#fgrid').innerHTML=retryBox();return}const r={available:0,reserved:1,sold:2};$('#fgrid').innerHTML=[...P].sort((x,y)=>r[st(x)]-r[st(y)]).slice(0,8).map(cardHTML).join('')}
 function paintHome(){const f=P.find(p=>p.hot&&imgs(p)[0])||P.find(p=>imgs(p)[0]);if(f)$('#himg').src=cdn(imgs(f)[0],1400);
- const e=P.find(p=>p!==f&&imgs(p)[0])||f;if(e)$('#eimg').src=cdn(imgs(e)[0],1000);
+ if(f)$('#hcap').innerHTML='Shop the look<b>'+esc(f.name)+'</b>';const e=P.find(p=>p!==f&&imgs(p)[0])||f;if(e)$('#eimg').src=cdn(imgs(e)[0],1000);
  $('#ig').innerHTML=P.filter(p=>imgs(p)[0]).slice(0,6).map(p=>`<a href="${esc(CFG.instagram||'https://www.instagram.com/dera_mulae')}" target="_blank" rel="noopener" aria-label="See us on Instagram"><img loading="lazy" src="${esc(cdn(imgs(p)[0],400))}" alt=""></a>`).join('')}
 $('#more').onclick=e=>{if(e.target.id==='moreb'){shown+=PAGE;renderGrid(true)}};
 const cardClick=e=>{const a=e.target.closest('[data-add]');if(a)return addCart(a.dataset.add);const w=e.target.closest('[data-w]');if(w)return toggleW(w.dataset.w);const o=e.target.closest('[data-id]');if(o)openP(o.dataset.id)};$('#grid').onclick=$('#fgrid').onclick=cardClick;
 function toggleW(id){wish=wish.includes(id)?wish.filter(x=>x!==id):[...wish,id];LS.set('dera4_wish',wish);$('#wc').textContent=wish.length;renderGrid(true);renderFeatured();toast(wish.includes(id)?'Saved to wishlist':'Removed from wishlist')}
 $('#openWish').onclick=()=>{if(!wish.length)return toast('Tap the heart on a dera to save it');go('Wishlist')};
+const related=p=>{const l=P.filter(x=>x.id!==p.id&&x.cat===p.cat&&st(x)==='available'&&imgs(x)[0]).slice(0,3);return l.length?`<div class="rel"><h4>You may also like</h4><div class="relg">${l.map(x=>`<button type="button" data-rel="${esc(x.id)}"><img loading="lazy" src="${esc(cdn(imgs(x)[0],240))}" alt=""><span>${esc(x.name)}</span><b>${KES(eff(x))}</b></button>`).join('')}</div></div>`:''};
 function openP(id){const p=P.find(x=>x.id===id);if(!p)return;const a=imgs(p),s=st(p);
  $('#pbody').innerHTML=`<button class="x" id="px" aria-label="Close">&times;</button><div class="gal"><div class="ph ${s==='available'?'':'dim'}" id="big"><img src="${esc(cdn(a[0]||'',1100))}" alt="${esc(p.name)}"></div>
  ${a.length>1?`<div class="thumbs">${a.map((u,i)=>`<button class="${i?'':'on'}" data-s="${esc(cdn(u,1100))}" aria-label="${a.length===2?(i?'Back':'Front')+' view':'Photo '+(i+1)}"><img loading="lazy" src="${esc(cdn(u,160))}" alt=""></button>`).join('')}</div>`:''}</div>
  <div class="info"><small style="color:var(--berry);font-weight:700">${esc(p.cat)}</small><h2>${esc(p.name)}</h2>
  <div class="pr">${KES(eff(p))}${onSale(p)?`<s>${KES(p.price)}</s><em>-${pct(p)}%</em>`:''}</div>
- <div class="chips">${p.hot?'<span class="hotc">Hot sale</span>':''}${s==='reserved'?'<span class="rsvc">Reserved</span>':''}${s==='sold'?'<span class="soldc">Sold</span>':''}${p.color?`<span>${esc(p.color)}</span>`:''}<span>Hand-dyed</span><span>${a.length===2?'Front and back':a.length+' photo'+(a.length>1?'s':'')}</span></div>
+ <div class="chips">${p.hot?'<span class="hotc">Hot sale</span>':''}${s==='reserved'?'<span class="rsvc">Reserved</span>':''}${s==='sold'?'<span class="soldc">Sold</span>':''}${p.color?`<span>${esc(p.color)}</span>`:''}${p.fabric?`<span>${esc(p.fabric)}</span>`:''}<span>${a.length===2?'Front and back':a.length+' photo'+(a.length>1?'s':'')}</span></div>
  <p>${esc(p.desc)}</p><p style="font-size:.92rem;margin:16px 0">Delivery by Bolt or Uber. Ride fee paid by you.</p>
  ${s==='available'?`<button class="btn" style="width:100%" id="addq">Add to cart</button>`:`<p style="margin-bottom:10px"><b>${s==='reserved'?'This dera is reserved for another customer.':'This dera has sold.'}</b> Message us about similar pieces.</p>`}
- <a class="btn o" style="width:100%;margin-top:10px" target="_blank" rel="noopener" href="${wa('Hi, I am interested in '+p.name)}">Ask about this dera</a></div>`;
+ <a class="btn o" style="width:100%;margin-top:10px" target="_blank" rel="noopener" href="${wa('Hi, I am interested in '+p.name)}">Ask about this dera</a><a class="btn o" style="width:100%;margin-top:10px" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(p.name+' '+location.origin+location.pathname+'?p='+encodeURIComponent(p.id))}">Share on WhatsApp</a>${related(p)}</div>`;
  $('#pm').classList.add('on');$('#px').onclick=()=>$('#pm').classList.remove('on');
  document.querySelectorAll('.thumbs button').forEach(b=>b.onclick=()=>{$('#big img').src=b.dataset.s;document.querySelectorAll('.thumbs button').forEach(x=>x.classList.toggle('on',x===b))});
+ document.querySelectorAll('.rel [data-rel]').forEach(b=>b.onclick=()=>openP(b.dataset.rel));
  if(s==='available')$('#addq').onclick=()=>{addCart(p.id);$('#pm').classList.remove('on')}}
 $('#pm').onclick=e=>{if(e.target.id==='pm')$('#pm').classList.remove('on')};
 /* drawers */
@@ -402,31 +476,33 @@ $('#mnav').addEventListener('click',e=>{if(e.target.closest('a'))shut()});
 function saveCart(){LS.set('dera4_cart',cart);$('#cc').textContent=cart.reduce((s,i)=>s+i.q,0);renderCart()}
 function addCart(id){const p=P.find(x=>x.id===id);if(!p||st(p)!=='available')return toast('Sorry, this dera is no longer available');const i=cart.find(x=>x.id===id);i?i.q++:cart.push({id,q:1});saveCart();toast('Added to cart');openD('drawer')}
 const total=()=>cart.reduce((s,i)=>{const p=P.find(x=>x.id===i.id);return s+(p?eff(p)*i.q:0)},0);
-function renderCart(){if(P.length){const bad=cart.filter(i=>{const p=P.find(x=>x.id===i.id);return !p||st(p)!=='available'});if(bad.length){cart=cart.filter(i=>!bad.includes(i));LS.set('dera4_cart',cart);toast('Sold or reserved deras were removed from your cart')}}
+function renderCart(){cart=(Array.isArray(cart)?cart:[]).filter(i=>i&&typeof i.id==='string').map(i=>({id:i.id,q:Math.max(1,Math.min(10,Math.floor(+i.q)||1))}));if(P.length){const bad=cart.filter(i=>{const p=P.find(x=>x.id===i.id);return !p||st(p)!=='available'});if(bad.length){cart=cart.filter(i=>!bad.includes(i));LS.set('dera4_cart',cart);toast('Sold or reserved deras were removed from your cart')}}
  $('#cc').textContent=cart.reduce((s,i)=>s+i.q,0);
  $('#lines').innerHTML=cart.length?cart.map(i=>{const p=P.find(x=>x.id===i.id);return `<div class="line">${ph(p,false,160)}<div><b style="color:var(--ink)">${esc(p.name)}</b><br>${KES(eff(p))}</div><div class="qty"><button data-m="${esc(i.id)}" aria-label="Fewer">-</button>${i.q}<button data-p="${esc(i.id)}" aria-label="More">+</button></div></div>`}).join('')+`<p style="text-align:right;margin:12px 0;font-size:1.15rem;color:var(--ink)"><b>Subtotal: ${KES(total())}</b></p>`:'<p style="padding:30px 0">Your cart is empty. Browse the collection and tap Add to cart.</p>';
  $('#checkout').innerHTML=cart.length?`<div class="note" id="kenote"><b>Delivery in Kenya:</b> Bolt or Uber. The ride fee is paid by you and depends on your location.</div>
  ${CFG.intlOn!=='no'?`<label for="cco">Country</label><input id="cco" value="Kenya" autocomplete="country-name">`:''}
  <div class="note" id="intlnote" style="display:none">${esc(CFG.intlNote)}</div>
- <label for="cn">Full name</label><input id="cn" autocomplete="name"><label for="cp">Phone number (with country code if outside Kenya)</label><input id="cp" inputmode="tel" autocomplete="tel" placeholder="07XX XXX XXX">
- <label for="cl">Delivery address</label><input id="cl" placeholder="Estate or street, city"><label for="cx">Notes (optional)</label><textarea id="cx" rows="2"></textarea>
+ <label for="cn">Full name</label><input id="cn" autocomplete="name" maxlength="100"><label for="cp">Phone number (with country code if outside Kenya)</label><input id="cp" maxlength="24" inputmode="tel" autocomplete="tel" placeholder="07XX XXX XXX">
+ <label for="cl">Delivery address</label><input id="cl" maxlength="250" placeholder="Estate or street, city"><label for="cx">Notes (optional)</label><textarea id="cx" rows="2" maxlength="500"></textarea>
  <div id="paybox"><div class="pay"><b>Pay ${K(total())} by M-Pesa</b><br>${MP()?`${esc(CFG.mpesaLabel)}: <b>${esc(CFG.mpesaNumber)}</b><br>Name: ${esc(CFG.mpesaName)}<br>`:'Please message us on WhatsApp for the payment number.<br>'}<small>Then enter the confirmation code from the M-Pesa message.</small></div>
  <label for="cc2">M-Pesa confirmation code</label><input id="cc2" maxlength="12" placeholder="e.g. SJK4X9ABCD" style="text-transform:uppercase"></div>
  ${cur!=='KES'?`<p style="font-size:.85rem;margin-top:12px">Prices are shown in ${cur} at approximate rates for reference. Final amounts are confirmed in KES.</p>`:''}
+ <label class="agree"><input type="checkbox" id="agr"><span>I agree to the <button type="button" class="lk2" data-pol="terms">Terms and Conditions</button> and the <button type="button" class="lk2" data-pol="returns">Returns and Refunds Policy</button>.</span></label>
  <button class="btn" id="place" style="width:100%;margin-top:16px">Place order</button>`:'';
 
  const pl=$('#place');if(pl)pl.onclick=placeOrder}
-$('#lines').onclick=e=>{const m=e.target.dataset.m,pp=e.target.dataset.p;if(m){const i=cart.find(x=>x.id===m);if(--i.q<=0)cart=cart.filter(x=>x!==i)}if(pp)cart.find(x=>x.id===pp).q++;if(m||pp)saveCart()};
+$('#lines').onclick=e=>{const m=e.target.dataset.m,pp=e.target.dataset.p;if(m){const i=cart.find(x=>x.id===m);if(--i.q<=0)cart=cart.filter(x=>x!==i)}if(pp){const it=cart.find(x=>x.id===pp);if(it&&it.q<10)it.q++}if(m||pp)saveCart()};
 const isIntl=()=>CFG.intlOn!=='no'&&$('#cco')&&!/^\s*(kenya|ke)?\s*$/i.test($('#cco').value);
 function syncIntl(){const i=isIntl(),p=$('#paybox');if(!p)return;p.style.display=i?'none':'';$('#intlnote').style.display=i?'':'none';$('#kenote').style.display=i?'none':''}
 $('#checkout').oninput=e=>{if(e.target.id==='cco')syncIntl()};
 async function placeOrder(){const v=s=>$(s).value.trim();const name=v('#cn'),phone=v('#cp'),loc=v('#cl'),code=v('#cc2').toUpperCase(),country=$('#cco')?v('#cco')||'Kenya':'Kenya',intl=isIntl();
- if(!name||!loc||(intl?!/^\+?\d[\d\s-]{6,17}$/.test(phone):(!/^(\+?254|0)?[71]\d{8}$/.test(phone.replace(/\s/g,''))||code.length<8)))return toast(intl?'Please add your name, phone with country code and full address':'Please add your name, a valid phone, location and the M-Pesa code');
- $('#place').disabled=true;let fresh=P;try{fresh=await DB.products()}catch(e){}
+ if(!$('#agr')||!$('#agr').checked)return toast('Please accept the Terms and Returns policy to place your order');if(name.length>100||loc.length>250||v('#cx').length>500)return toast('One of your entries is too long');
+ if(!name||!loc||(intl?!/^\+?\d[\d\s-]{6,17}$/.test(phone):(!/^(\+?254|0)?[71]\d{8}$/.test(phone.replace(/\s/g,''))||!/^[A-Z0-9]{8,12}$/.test(code))))return toast(intl?'Please add your name, phone with country code and full address':'Please add your name, a valid phone, location and the M-Pesa code');
+ $('#place').disabled=true;let fresh=P;try{fresh=await DB.products(true)}catch(e){}
  if(cart.some(i=>{const p=fresh.find(x=>x.id===i.id);return !p||st(p)!=='available'})){P=fresh;navs();renderGrid(true);renderCart();return toast('Some deras just sold or were reserved and were removed. Please review your cart.')}
  const items=cart.map(i=>{const p=P.find(x=>x.id===i.id);return{id:p.id,name:p.name,price:eff(p),q:i.q}});
- const o={name,phone,location:loc,notes:v('#cx'),mpesa:code||'N/A',country,intl,currency:cur,items,total:total(),status:'New',created:Date.now()};
- try{await DB.addOrder(o)}catch(e){$('#place').disabled=false;return toast('Could not send the order. Check your connection and try again.')}
+ window._oid=window._oid||('o'+Date.now().toString(36)+Math.random().toString(36).slice(2,8));const o={name,phone,location:loc,notes:v('#cx'),mpesa:code||'N/A',country,intl,currency:cur,items,total:total(),status:'New',created:Date.now(),terms:true,termsVer:POL_VER,oid:window._oid};
+ try{await DB.addOrder(o,!!window._oidTried);window._oidTried=false;window._oid=null}catch(e){window._oidTried=true;$('#place').disabled=false;return toast('Could not send the order. Check your connection and try again.')}
  const msg=`New order, Dera by Ms Mulae\n${items.map(i=>`${i.q} x ${i.name} (${K(i.price)})`).join('\n')}\nTotal: ${K(o.total)}\n${intl?'International order':'M-Pesa code: '+code}\nName: ${name}\nPhone: ${phone}\nCountry: ${country}\nAddress: ${loc}${o.notes?'\nNotes: '+o.notes:''}`;
  cart=[];saveCart();shut();
  $('#pbody').innerHTML=`<button class="x" onclick="$('#pm').classList.remove('on')" aria-label="Close">&times;</button><div class="info" style="grid-column:1/-1;text-align:center;padding:56px 24px"><h2>Order received</h2><p style="margin:12px auto 24px;max-width:44ch">Thank you, ${esc(name)}. Tap below to send your order on WhatsApp so we can confirm your payment and arrange delivery.</p>
@@ -435,7 +511,7 @@ async function placeOrder(){const v=s=>$(s).value.trim();const name=v('#cn'),pho
 /* ================= admin ================= */
 const A=$('#adminBody');let adminOK=false,tab='p',edit=null,dImgs=[],aq='',ast='';
 const PAGES={shop:'pg-shop',story:'pg-story',delivery:'pg-delivery',reach:'pg-reach'};
-function route(){const h=location.hash.slice(1),adm=h==='admin',pg=PAGES[h];$('#shop').style.display=adm?'none':'';$('#admin').style.display=adm?'block':'none';
+function route(){const h=location.hash.slice(1),adm=h==='admin',pg=PAGES[h];$('#shop').style.display=adm?'none':'';document.body.classList.toggle('isadmin',adm);$('#admin').style.display=adm?'block':'none';
  document.querySelectorAll('.page').forEach(p=>p.hidden=p.id!==pg);$('#home').hidden=!!pg;
  if(pg)scrollTo(0,0);else if(h&&!adm){const el=document.getElementById(h);if(el)requestAnimationFrame(()=>el.scrollIntoView())}
  if(adm)adminView()}
@@ -451,26 +527,22 @@ async function upImg(file){const blob=await toBlob(file,CLOUD?1400:800,CLOUD?.82
 const catOpts=sel=>CATS.map(c=>`<option ${c===sel?'selected':''}>${c}</option>`).join('');
 const stOpts=sel=>[['available','Available'],['reserved','Reserved'],['sold','Sold']].map(([v,l])=>`<option value="${v}" ${v===sel?'selected':''}>${l}</option>`).join('');
 function drawImgs(){const el=$('#dimgs');if(!el)return;el.innerHTML=dImgs.length?dImgs.map((u,i)=>`<div class="di"><img src="${esc(cdn(u,200))}" alt=""><b>${i===0?'Main':i===1?'Hover':'#'+(i+1)}</b><div><button type="button" data-im="${i}" data-act="main">Main</button><button type="button" data-im="${i}" data-act="del">Remove</button></div></div>`).join(''):'<p>No photos yet. Add some below.</p>'}
-function drawList(){const el=$('#plist');if(!el)return;const l=P.filter(p=>(!aq||(p.name+p.cat).toLowerCase().includes(aq))&&(!ast||st(p)===ast));
- el.innerHTML=l.map(p=>`<div class="row">${ph(p,false,160)}<div><b style="color:var(--ink)">${esc(p.name)}</b><br>${esc(p.cat)} | ${imgs(p).length} photo(s)${onSale(p)?` | <b>-${pct(p)}%</b>`:''}</div><label class="qpl">Price<input class="qp" type="number" min="1" data-pf="${esc(p.id)}" value="${p.price}"></label><label class="qpl">Sale<input class="qp" type="number" min="0" data-sf="${esc(p.id)}" value="${p.sale||''}" placeholder="none"></label>
-  <select data-st="${esc(p.id)}" aria-label="Status">${stOpts(st(p))}</select><button class="btn ${p.hot?'k':'o'} sm" data-hot="${esc(p.id)}">${p.hot?'Hot: on':'Hot: off'}</button>
-  <button class="btn o sm" data-e="${esc(p.id)}">Edit</button><button class="btn sm danger" data-d="${esc(p.id)}">Delete</button></div>`).join('')||'<p>No matching products.</p>'}
 async function adminView(){
  if(!adminOK){if(fb&&auth.currentUser)adminOK=true;else{
   A.innerHTML=`<div class="panel" style="max-width:400px"><label>${fb?'Email':'Passcode (demo: dera123)'}</label>${fb?'<input id="ae" type="email">':''}<input id="ap" type="password" placeholder="${fb?'Password':'Passcode'}" style="margin-top:8px"><button class="btn" id="al" style="margin-top:14px">Log in</button></div>`;
   $('#al').onclick=async()=>{try{if(fb)await auth.signInWithEmailAndPassword($('#ae').value,$('#ap').value);else if($('#ap').value!=='dera123')throw 0;adminOK=true;adminView()}catch(e){toast('Wrong login details')}};return}}
- let ords=[];try{ords=await DB.orders()}catch(e){toast('Could not load orders. Check your Firestore rules.')}const e=edit||{};
+ let ords=[];try{ords=await DB.orders(ordLim);lastOrderTs=Math.max(lastOrderTs,...ords.map(o=>+o.created||0),0);window._ordMap=Object.fromEntries(ords.map(o=>[o.id,o]))}catch(e){toast('Could not load orders. Check your Firestore rules.')}const e={};
  const rev=ords.filter(o=>['Paid','Out for delivery','Delivered'].includes(o.status)).reduce((s,o)=>s+o.total,0);
  const tb=(t,l)=>`<button class="btn ${tab===t?'k':'o'} sm" data-t="${t}">${l}</button>`;
  const chk=(ok,l)=>`<span class="chk ${ok?'ok':'no'}">${ok?'Done':'To do'}: ${l}</span>`;
  let h=`<div class="kpis"><div><b>${P.length}</b>Products</div><div><b>${ords.filter(o=>o.status==='New').length}</b>New orders</div><div><b>${ords.length}</b>All orders</div><div><b>${KES(rev)}</b>Confirmed sales</div></div>
  <div class="panel" style="display:flex;gap:8px;flex-wrap:wrap">${chk(MP(),'M-Pesa number (Settings tab)')}${chk(fb,'Firebase (live orders and catalogue)')}${chk(CLOUD,'Cloudinary (unlimited photos)')}</div>
  ${fb?'':'<p class="note">Demo mode: changes are stored in this browser only. Follow LAUNCH-GUIDE.md to go live.</p>'}
- <div class="tabs" style="margin-top:16px">${tb('p','Products')}${tb('o','Orders ('+ords.length+')')}${tb('b','Bulk upload')}${tb('s','Settings')}<button class="btn o sm" data-t="out">Log out</button></div>`;
+ <div class="tabs" style="margin-top:16px">${tb('p','Products')}${tb('o','Orders ('+ords.length+')')}${tb('b','Bulk upload')}${tb('s','Settings')}${tb('c','Pages and content')}${tb('l','Policies')}<button class="btn o sm" data-t="out">Log out</button></div>`;
  if(tab==='p'){h+=`<div class="panel"><h3 style="margin-bottom:12px">${e.id?'Edit dera':'Add a dera'}</h3><div class="fgrid">
   <div><label>Name</label><input id="fn" value="${esc(e.name)}"></div><div><label>Category</label><select id="fcat" class="fs">${catOpts(e.cat)}</select></div>
   <div><label>Price (KES)</label><input id="fp" type="number" value="${e.price||''}"></div><div><label>Discount price (empty = no discount)</label><input id="fs" type="number" value="${e.sale||''}"></div>
-  <div><label>Status</label><select id="fst" class="fs">${stOpts(e.id?st(e):'available')}</select></div><div><label>Colour (optional)</label><input id="fc" value="${esc(e.color)}"></div>
+  <div><label>Status</label><select id="fst" class="fs">${stOpts(e.id?st(e):'available')}</select></div><div><label>Colour (optional)</label><input id="fc" value="${esc(e.color)}"></div><div><label>Fabric note (Hand-dyed, Printed...)</label><input id="ffab" value="${esc(e.fabric)}" maxlength="30"></div>
   <div style="display:flex;align-items:end"><label style="display:flex;gap:8px;align-items:center"><input id="fh" type="checkbox" style="width:auto" ${e.hot?'checked':''}> Mark as Hot sale</label></div>
   <div style="grid-column:1/-1"><label>Description</label><textarea id="fd" rows="3">${esc(e.desc)}</textarea></div>
   <div style="grid-column:1/-1"><label>Photos (first is Main, second shows on hover)</label><div id="dimgs" class="dimgs"></div></div>
@@ -479,59 +551,410 @@ async function adminView(){
   <p id="us" style="margin-top:8px"></p>
   <div style="margin-top:14px;display:flex;gap:10px"><button class="btn sm" id="sv">${e.id?'Save changes':'Add dera'}</button>${e.id?'<button class="btn o sm" id="cx2">Cancel</button>':''}</div></div>
   <div class="panel"><div class="fgrid" style="margin-bottom:10px"><input id="aq" placeholder="Search your products" value="${esc(aq)}"><select id="ast" class="fs"><option value="">All statuses</option>${stOpts(ast)}</select></div><div id="plist"></div></div>
-  <div class="panel"><h3>Import or back up your catalogue</h3><p style="margin:8px 0 14px">Import many deras at once from a products file (for example <b>products.json</b>), or download a backup of everything. Deras already in your shop are updated, never duplicated.</p><div class="fgrid"><div><label>Products file</label><input id="imf" type="file" accept=".json,application/json"></div><div style="display:flex;align-items:end"><label style="display:flex;gap:8px;align-items:center"><input id="imr" type="checkbox" style="width:auto"> Replace everything (removes all current deras first)</label></div></div><div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap"><button class="btn sm" id="imb">Import deras</button><button class="btn o sm" id="exb">Download backup</button></div><p id="ims" style="margin-top:10px"></p></div>`}
- if(tab==='o')h+=`<div class="panel">${ords.length?ords.map(o=>`<div class="row"><div style="flex:2"><b style="color:var(--ink)">${esc(o.name)}</b> | ${esc(o.phone)}<br>${esc(o.location)}${o.intl?' ('+esc(o.country)+')':''}<br>${o.items.map(i=>`${i.q} x ${esc(i.name)}`).join(', ')}<br><b>${KES(o.total)}</b> | M-Pesa: <b>${esc(o.mpesa)}</b> | ${new Date(o.created).toLocaleString()}${o.notes?'<br>Note: '+esc(o.notes):''}</div>
+  <div class="panel"><h3>Import or back up your catalogue</h3><p style="margin:8px 0 14px">Import many deras at once from a products file (for example <b>products.json</b>), or download a backup of everything. Deras already in your shop are updated, never duplicated.</p><div class="fgrid"><div><label>Products file</label><input id="imf" type="file" accept=".json,application/json"></div><div style="display:flex;align-items:end"><label style="display:flex;gap:8px;align-items:center"><input id="imr" type="checkbox" style="width:auto"> Replace everything (removes all current deras first)</label></div><div style="display:flex;align-items:end"><label style="display:flex;gap:8px;align-items:center"><input id="imo" type="checkbox" style="width:auto"> Also overwrite prices and details of deras already in my shop</label></div></div><div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap"><button class="btn sm" id="imb">Import deras</button><button class="btn o sm" id="exb">Download backup</button></div><p id="ims" style="margin-top:10px"></p></div>`}
+ const shownO=window._ofs?ords.filter(o=>o.status===window._ofs):ords;
+ if(tab==='o')h+=`<div class="panel" style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><label style="margin:0">Show</label><select id="ofs" class="fs" style="width:auto">${['','New','Paid','Out for delivery','Delivered','Cancelled'].map(x=>`<option value="${x}" ${x===(window._ofs||'')?'selected':''}>${x||'All orders'}</option>`).join('')}</select><button class="btn o sm" id="ocsv" type="button">Download orders (CSV)</button></div><div class="panel">${shownO.length?shownO.map(o=>`<div class="row"><div style="flex:2"><b style="color:var(--ink)">${esc(o.name)}</b> | ${esc(o.phone)}<br>${esc(o.location)}${o.intl?' ('+esc(o.country)+')':''}<br>${(Array.isArray(o.items)?o.items:[]).map(i=>`${esc(i.q)} x ${esc(i.name)}`).join(', ')}<br><b>${KES(o.total)}</b>${ordFlag(o)} | M-Pesa: <b>${esc(o.mpesa)}</b> | ${new Date(o.created).toLocaleString()}${o.notes?'<br>Note: '+esc(o.notes):''}</div>
   <select data-s="${esc(o.id)}">${['New','Paid','Out for delivery','Delivered','Cancelled'].map(s=>`<option ${s===o.status?'selected':''}>${s}</option>`).join('')}</select>
-  <a class="btn o sm" target="_blank" rel="noopener" href="https://wa.me/${String(o.phone).replace(/\D/g,'').replace(/^0/,'254')}">WhatsApp</a><button class="btn sm danger" data-od="${esc(o.id)}">Delete</button></div>`).join(''):'<p>No orders yet.</p>'}</div>`;
+  <a class="btn o sm" target="_blank" rel="noopener" href="https://wa.me/${String(o.phone).replace(/\D/g,'').replace(/^0/,'254')}">WhatsApp</a><button class="btn sm danger" data-od="${esc(o.id)}">Delete</button></div>`).join(''):'<p>No orders yet.</p>'}${ords.length>=ordLim?'<p style="text-align:center;margin-top:12px"><button class="btn o sm" data-moreord="1">Load older orders</button></p>':''}</div>`;
  if(tab==='b')h+=`<div class="panel"><h3>Bulk upload photos</h3><p style="margin:8px 0 14px">Select many photos at once. Name them like <b>teal-1-front.jpg</b>, <b>teal-1-back.jpg</b>, <b>teal-1-side.jpg</b>. Photos sharing the same name before the last dash become one dera, with every photo attached. Then set names, prices and descriptions in Products. Use JPG or PNG (convert HEIC first).</p>
  <div class="fgrid"><div><label>Category</label><select id="bc" class="fs">${catOpts()}</select></div><div><label>Starting price (KES)</label><input id="bp" type="number" value="700"></div><div><label>Photos</label><input id="bf" type="file" accept="image/*" multiple></div></div><button class="btn sm" id="bu" style="margin-top:14px">Upload and create deras</button><p id="bs" style="margin-top:10px"></p></div>`;
- if(tab==='s')h+=`<div class="panel"><h3>Shop settings</h3><p style="margin:8px 0 14px">Changes go live for all customers straight away.</p><div class="fgrid"><div><label>M-Pesa type</label><select id="s1" class="fs">${['Till Number','Paybill','Phone number'].map(x=>`<option ${x===CFG.mpesaLabel?'selected':''}>${x}</option>`).join('')}</select></div><div><label>M-Pesa number</label><input id="s2" value="${MP()?esc(CFG.mpesaNumber):''}" inputmode="numeric"></div><div><label>Name shown on M-Pesa</label><input id="s3" value="${esc(CFG.mpesaName)}"></div><div><label>Instagram link</label><input id="s4" value="${esc(CFG.instagram||'https://www.instagram.com/dera_mulae')}"></div><div><label>TikTok link</label><input id="s5" value="${esc(CFG.tiktok)}"></div><div style="grid-column:1/-1"><label>Top announcement bar text</label><input id="s6" value="${esc(CFG.announce||'Hand-dyed deras photographed front and back | International orders welcome | M-Pesa in Kenya')}"></div></div><h3 style="margin:22px 0 10px">International and currency</h3><div class="fgrid"><div><label>International orders</label><select id="s10" class="fs"><option value="yes" ${CFG.intlOn!=='no'?'selected':''}>On</option><option value="no" ${CFG.intlOn==='no'?'selected':''}>Off (Kenya only)</option></select></div><div><label>KES per 1 USD</label><input id="s7" type="number" value="${CFG.rUSD}"></div><div><label>KES per 1 GBP</label><input id="s8" type="number" value="${CFG.rGBP}"></div><div><label>KES per 1 EUR</label><input id="s9" type="number" value="${CFG.rEUR}"></div><div style="grid-column:1/-1"><label>Message shown to international customers</label><textarea id="s11" rows="2">${esc(CFG.intlNote)}</textarea></div></div><button class="btn sm" id="ss" style="margin-top:14px">Save settings</button></div>`;
+ if(tab==='s')h+=`<div class="panel"><h3>Shop settings</h3><p style="margin:8px 0 14px">Changes go live for all customers straight away.</p><div class="fgrid"><div><label>M-Pesa type</label><select id="s1" class="fs">${['Till Number','Paybill','Phone number'].map(x=>`<option ${x===CFG.mpesaLabel?'selected':''}>${x}</option>`).join('')}</select></div><div><label>M-Pesa number</label><input id="s2" value="${MP()?esc(CFG.mpesaNumber):''}" inputmode="numeric"></div><div><label>Name shown on M-Pesa</label><input id="s3" value="${esc(CFG.mpesaName)}"></div><div><label>Instagram link</label><input id="s4" value="${esc(CFG.instagram||'https://www.instagram.com/dera_mulae')}"></div><div><label>TikTok link</label><input id="s5" value="${esc(CFG.tiktok)}"></div><div style="grid-column:1/-1"><label>Top announcement bar text</label><input id="s6" value="${esc(CFG.announce||'Hand-dyed and printed deras | International orders welcome | M-Pesa in Kenya')}"></div></div><h3 style="margin:22px 0 10px">AI assistant (optional)</h3><div class="fgrid"><div style="grid-column:1/-1"><label>AI assistant server address (leave empty to use the built-in assistant)</label><input id="s12" value="${esc(CFG.assistantUrl||'')}" placeholder="https://...cloudfunctions.net/assistant"></div></div><h3 style="margin:22px 0 10px">International and currency</h3><div class="fgrid"><div><label>International orders</label><select id="s10" class="fs"><option value="yes" ${CFG.intlOn!=='no'?'selected':''}>On</option><option value="no" ${CFG.intlOn==='no'?'selected':''}>Off (Kenya only)</option></select></div><div><label>KES per 1 USD</label><input id="s7" type="number" value="${CFG.rUSD}"></div><div><label>KES per 1 GBP</label><input id="s8" type="number" value="${CFG.rGBP}"></div><div><label>KES per 1 EUR</label><input id="s9" type="number" value="${CFG.rEUR}"></div><div style="grid-column:1/-1"><label>Message shown to international customers</label><textarea id="s11" rows="2">${esc(CFG.intlNote)}</textarea></div></div><button class="btn sm" id="ss" style="margin-top:14px">Save settings</button></div>`;
+ if(tab==='c')h+=contentTab();if(tab==='l')h+=polTab();
  A.innerHTML=h;if(tab==='p'){drawImgs();drawList()}}
 A.addEventListener('click',async ev=>{const d=ev.target.dataset,id=ev.target.id;
  try{
  if(d.t){if(d.t==='out'){adminOK=false;if(fb)await auth.signOut();return adminView()}tab=d.t;edit=null;dImgs=[];return adminView()}
- if(d.e){edit=P.find(p=>p.id===d.e);dImgs=[...imgs(edit)];tab='p';scrollTo(0,0);return adminView()}
+ if(d.e)return;
  if(d.act){const i=+d.im;if(d.act==='del')dImgs.splice(i,1);else dImgs.unshift(dImgs.splice(i,1)[0]);return drawImgs()}
- if(d.hot){const p={...P.find(x=>x.id===d.hot)};p.hot=!p.hot;await DB.saveProduct(p);await load();return drawList()}
- if(d.d&&confirm('Delete this dera for good?')){await DB.delProduct(d.d);await load();return drawList()}
+ if(d.hot){const p={...P.find(x=>x.id===d.hot)};p.hot=!p.hot;await DB.saveProduct(p);await load(true);return drawList()}
+ if(d.d&&confirm('Delete this dera for good?')){await DB.delProduct(d.d);await load(true);return drawList()}
+ if(d.moreord){ordLim+=100;return adminView()}
  if(d.od&&confirm('Delete this order?')){await DB.delOrder(d.od);return adminView()}
- if(id==='ss'){const o={mpesaLabel:$('#s1').value,mpesaNumber:$('#s2').value.trim(),mpesaName:$('#s3').value.trim()||'Dera by Ms Mulae',instagram:$('#s4').value.trim(),tiktok:$('#s5').value.trim(),announce:$('#s6').value.trim(),rUSD:+$('#s7').value||CFG.rUSD,rGBP:+$('#s8').value||CFG.rGBP,rEUR:+$('#s9').value||CFG.rEUR,intlOn:$('#s10').value,intlNote:$('#s11').value.trim()||CFG.intlNote};if(!o.mpesaNumber)return toast('Please enter your M-Pesa number');await DB.saveSettings(o);applySettings(o);renderCart();renderGrid(true);renderFeatured();toast('Settings saved');return adminView()}
+ if(id==='ss'){const o={mpesaLabel:$('#s1').value,mpesaNumber:$('#s2').value.trim(),mpesaName:$('#s3').value.trim()||'Dera by Ms Mulae',instagram:$('#s4').value.trim(),tiktok:$('#s5').value.trim(),announce:$('#s6').value.trim(),rUSD:+$('#s7').value||CFG.rUSD,rGBP:+$('#s8').value||CFG.rGBP,rEUR:+$('#s9').value||CFG.rEUR,intlOn:$('#s10').value,intlNote:$('#s11').value.trim()||CFG.intlNote,assistantUrl:$('#s12').value.trim()};if(!o.mpesaNumber)return toast('Please enter your M-Pesa number');for(const k of ['instagram','tiktok','assistantUrl'])if(o[k]&&!safeHttps(o[k]))return toast('Links must start with https://');await DB.saveSettings(o);applySettings(o);CFG.assistantUrl=o.assistantUrl;renderCart();renderGrid(true);renderFeatured();toast('Settings saved');return adminView()}
  if(id==='exb'){const b=new Blob([JSON.stringify(P,null,1)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='dera-products-backup.json';document.body.appendChild(a);a.click();a.remove();return toast('Backup downloaded')}
  if(id==='imb'){const f=$('#imf').files[0];if(!f)return toast('Choose a products file first');let arr;try{arr=JSON.parse(await f.text())}catch(x){return toast('That file could not be read. Is it a products.json file?')}
   if(!Array.isArray(arr)||!arr.length)return toast('The file has no products');const seenN=new Set(),ok=[];
   for(const q of arr){const imgsOk=Array.isArray(q.images)&&q.images.length&&q.images.every(u=>typeof u==='string'&&(!fb||!u.startsWith('data:')));
    if(!q.name||!(+q.price>0)||!CATS.includes(q.cat)||!imgsOk)return toast('Problem with "'+(q.name||'unnamed')+'": it needs a name, price, valid category and photos');
    const key=q.name.trim().toLowerCase();if(seenN.has(key))continue;seenN.add(key);
-   ok.push({id:q.id||newId(),name:q.name.trim(),cat:q.cat,color:q.color||'',price:+q.price,sale:+q.sale||0,status:['available','reserved','sold'].includes(q.status)?q.status:'available',hot:!!q.hot,images:q.images.slice(0,12),desc:q.desc||''})}
+   ok.push({id:q.id||newId(),name:q.name.trim(),cat:q.cat,color:q.color||'',fabric:q.fabric||'',price:+q.price,sale:+q.sale||0,status:['available','reserved','sold'].includes(q.status)?q.status:'available',hot:!!q.hot,images:q.images.slice(0,12),desc:q.desc||''})}
   if($('#imr').checked&&!confirm('This removes ALL current deras and replaces them with the '+ok.length+' in the file. Continue?'))return;
-  await DB.mutate(items=>{if($('#imr').checked)return ok.map((p,i)=>({...p,ts:Date.now()-i}));ok.forEach((p,i)=>{const j=items.findIndex(x=>x.id===p.id||(x.name||'').trim().toLowerCase()===p.name.toLowerCase());if(j>=0)items[j]={...items[j],...p};else items.push({...p,ts:Date.now()-i})});return items});
-  await load();toast(ok.length+' deras imported');tab='p';return adminView()}
+  await DB.mutate(items=>{if($('#imr').checked)return ok.map((p,i)=>({...p,ts:Date.now()-i}));ok.forEach((p,i)=>{const j=items.findIndex(x=>x.id===p.id||(x.name||'').trim().toLowerCase()===p.name.toLowerCase());if(j>=0){const ex=items[j];items[j]=$('#imo').checked?{...ex,...p}:{...ex,images:p.images.length>(ex.images||[]).length?p.images:ex.images,fabric:ex.fabric||p.fabric,color:ex.color||p.color}}else items.push({...p,ts:Date.now()-i})});return items});
+  await load(true);toast(ok.length+' deras imported');tab='p';return adminView()}
  if(id==='cx2'){edit=null;dImgs=[];return adminView()}
  if(id==='addpath'){const v=$('#fpath').value.trim();if(v){dImgs.push(v);$('#fpath').value='';drawImgs()}return}
  if(id==='sv'){const nm=$('#fn').value.trim(),pr=+$('#fp').value;if(!nm||!pr)return toast('Name and price are required');const o=edit||{};
-  const p={...o,name:nm,price:pr,sale:+$('#fs').value||0,cat:$('#fcat').value,status:$('#fst').value,hot:$('#fh').checked,color:$('#fc').value.trim(),desc:$('#fd').value.trim(),images:[...dImgs]};delete p.stock;delete p.front;delete p.back;
+  const p={...o,name:nm,price:pr,sale:+$('#fs').value||0,cat:$('#fcat').value,status:$('#fst').value,hot:$('#fh').checked,color:$('#fc').value.trim(),fabric:$('#ffab').value.trim(),desc:$('#fd').value.trim(),images:[...dImgs]};delete p.stock;delete p.front;delete p.back;
   if(fb&&p.images.some(u=>u.startsWith('data:')))return toast('Photos must be Cloudinary links or file paths when live. See LAUNCH-GUIDE.md.');
-  await DB.saveProduct(p);edit=null;dImgs=[];await load();toast('Saved');return adminView()}
+  await DB.saveProduct(p);edit=null;dImgs=[];await load(true);toast('Saved');return adminView()}
  if(id==='bu'){const fl=[...$('#bf').files].sort((a,b)=>a.name.localeCompare(b.name));if(!fl.length)return toast('Choose photos first');const g={};let n=0;
   for(const f of fl){const k=f.name.replace(/\.[^.]+$/,'').replace(/[-_ ]?(front|back|side|\d{1,2})$/i,'')||f.name;const r=g[k]=g[k]||{f:[],b:[],m:[]};$('#bs').textContent=`Uploading ${++n}/${fl.length}: ${f.name}`;const u=await upImg(f);(/back/i.test(f.name)?r.b:/front/i.test(f.name)?r.f:r.m).push(u)}
   const arr=Object.keys(g).map(k=>{const w=k.replace(/[-_]+/g,' ').replace(/\d+/g,'').trim().split(' ')[0]||'New',C=w.charAt(0).toUpperCase()+w.slice(1),num=(k.match(/\d+/)||[''])[0];
    return{name:C+' Dera'+(num?' '+num:''),cat:$('#bc').value,color:C,price:+$('#bp').value||700,sale:0,status:'available',hot:false,desc:'Hand-dyed dera. Edit this description.',images:[...g[k].f,...g[k].m,...g[k].b]}});
-  await DB.saveProducts(arr);await load();toast(arr.length+' deras created');tab='p';return adminView()}
+  await DB.saveProducts(arr);await load(true);toast(arr.length+' deras created');tab='p';return adminView()}
  }catch(err){toast(err.message||'Something went wrong');console.error(err)}});
 A.addEventListener('change',async ev=>{const t=ev.target;
  try{
  if(t.dataset.s){await DB.setOrder(t.dataset.s,t.value);return toast('Order updated')}
- if(t.dataset.pf||t.dataset.sf){const id=t.dataset.pf||t.dataset.sf,p={...P.find(x=>x.id===id)};if(t.dataset.pf){const v=+t.value;if(!v||v<1)return toast('Enter a valid price');p.price=v}else p.sale=+t.value||0;await DB.saveProduct(p);await load();drawList();return toast('Price updated')}
- if(t.dataset.st){const p={...P.find(x=>x.id===t.dataset.st)};p.status=t.value;delete p.stock;await DB.saveProduct(p);await load();drawList();return toast('Status updated')}
+ if(t.dataset.pf||t.dataset.sf){const id=t.dataset.pf||t.dataset.sf,p={...P.find(x=>x.id===id)};if(t.dataset.pf){const v=+t.value;if(!v||v<1)return toast('Enter a valid price');p.price=v}else p.sale=+t.value||0;await DB.saveProduct(p);await load(true);drawList();return toast('Price updated')}
+ if(t.dataset.st){const p={...P.find(x=>x.id===t.dataset.st)};p.status=t.value;delete p.stock;await DB.saveProduct(p);await load(true);drawList();return toast('Status updated')}
  if(t.id==='ast'){ast=t.value;return drawList()}
  if(t.id==='ff'){const fl=[...t.files];for(let i=0;i<fl.length;i++){$('#us').textContent=`Uploading ${i+1}/${fl.length}...`;dImgs.push(await upImg(fl[i]));drawImgs()}$('#us').textContent=fl.length+' photo(s) added. Click Save to keep them.';t.value=''}
  }catch(err){$('#us')&&($('#us').textContent='');toast(err.message||'Upload failed');console.error(err)}});
 A.addEventListener('input',ev=>{if(ev.target.id==='aq'){aq=ev.target.value.trim().toLowerCase();drawList()}});
-async function load(){try{P=await DB.products()}catch(e){P=SAMPLE;toast('Could not load products. Showing samples.')}navs();renderGrid(true);renderCart();$('#wc').textContent=wish.length;renderFeatured();paintHome();$('#cur').value=cur}
+let ordLim=100;
+/* ===== v5 admin: independent product editor, content and policy editors ===== */
+let PE=null,peIdx=0,apLim=40;
+const pEl=()=>P.find(x=>x.id===PE);
+const peSt=m=>{const e=$('#pest');if(e)e.textContent=m||''};
+function peOpen(id){PE=id;peRender();$('#pe').classList.add('on');setTimeout(()=>{const x=$('#pex');x&&x.focus()},30)}
+function peClose(){PE=null;$('#pe').classList.remove('on')}
+function peRender(){const p=pEl();if(!p)return peClose();const a=imgs(p);
+ $('#pebody').innerHTML=`<h2 style="font-size:1.8rem">Edit: ${esc(p.name)}</h2><p class="note" style="margin:8px 0 18px">Each card below saves on its own. Changing details never touches the photos, and changing photos never touches the details.</p>
+ <div class="pecard"><h3>Photos</h3><p style="font-size:.85rem;margin:4px 0 12px">The first photo is the main one. The second shows when a customer hovers over the dera.</p><div class="dimgs">${a.map((u,i)=>`<div class="di"><img src="${esc(cdn(u,220))}" alt=""><b>${i===0?'Main':i===1?'Hover':'#'+(i+1)}</b><div><button type="button" data-pa="rep" data-i="${i}">Replace</button><button type="button" data-pa="main" data-i="${i}" ${i===0?'disabled':''}>Main</button></div><div><button type="button" data-pa="l" data-i="${i}" ${i===0?'disabled':''} aria-label="Move earlier">&larr;</button><button type="button" data-pa="r" data-i="${i}" ${i===a.length-1?'disabled':''} aria-label="Move later">&rarr;</button><button type="button" data-pa="del" data-i="${i}">Delete</button></div></div>`).join('')||'<p>No photos yet.</p>'}</div>
+  <input type="file" id="pefile" accept="image/*" hidden><input type="file" id="peadd" accept="image/*" multiple hidden>
+  <div class="peacts"><button class="btn o sm" type="button" data-pa="add">Add photos</button><input id="pepath" placeholder="or paste a photo link or file path"><button class="btn o sm" type="button" data-pa="path">Add link</button></div><p id="pest" role="status"></p></div>
+ <div class="pecard"><h3>Details</h3><div class="fgrid"><div><label>Name</label><input id="pn" value="${esc(p.name)}" maxlength="80"></div><div><label>Category</label><select id="pc" class="fs">${catOpts(p.cat)}</select></div><div><label>Colour</label><input id="pcol" value="${esc(p.color)}" maxlength="30"></div><div><label>Fabric note</label><input id="pfab" value="${esc(p.fabric)}" maxlength="30"></div><div style="grid-column:1/-1"><label>Description</label><textarea id="pd" rows="4" maxlength="600">${esc(p.desc)}</textarea></div></div><button class="btn sm" type="button" data-pa="sd" style="margin-top:12px">Save details</button></div>
+ <div class="pecard"><h3>Price and status</h3><div class="fgrid"><div><label>Price (KES)</label><input id="pp" type="number" min="1" value="${p.price}"></div><div><label>Discount price (empty = none)</label><input id="ps" type="number" min="0" value="${p.sale||''}"></div><div><label>Status</label><select id="pst" class="fs">${stOpts(st(p))}</select></div><div style="display:flex;align-items:end"><label style="display:flex;gap:8px;align-items:center"><input id="ph2" type="checkbox" style="width:auto" ${p.hot?'checked':''}> Hot sale</label></div></div><button class="btn sm" type="button" data-pa="sp" style="margin-top:12px">Save price and status</button></div>
+ <div class="pecard" style="border-color:#e6b8bb"><h3>Remove this dera</h3><p style="margin:6px 0 12px">Removes this dera from your shop. Past orders are not affected.</p><button class="btn sm danger" type="button" data-pa="rm">Delete this dera</button></div>`}
+async function peSave(patch,msg){await DB.patch(PE,patch);await load(true);peRender();drawList();toast(msg||'Saved')}
+$('#pex').onclick=peClose;$('#pe').onclick=e=>{if(e.target.id==='pe')peClose()};
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#pe').classList.contains('on'))peClose()});
+$('#pebody').addEventListener('click',async ev=>{const b=ev.target.closest('[data-pa]');if(!b)return;const k=b.dataset.pa,i=+b.dataset.i,p=pEl();if(!p)return;let a=[...imgs(p)];
+ try{
+ if(k==='rep'){peIdx=i;return $('#pefile').click()}
+ if(k==='add')return $('#peadd').click();
+ if(k==='path'){const v=$('#pepath').value.trim();if(!/^(https:\/\/|images\/)[^\s]+$/.test(v))return toast('Use a link starting with https:// or a file path starting with images/');a.push(v);return peSave({images:a},'Photo added')}
+ if(k==='main'){a.unshift(a.splice(i,1)[0]);return peSave({images:a},'Main photo changed')}
+ if(k==='l'||k==='r'){const j=k==='l'?i-1:i+1;[a[i],a[j]]=[a[j],a[i]];return peSave({images:a},'Photo moved')}
+ if(k==='del'){if(a.length<=1)return toast('A dera needs at least one photo. Add the new photo first, then delete the old one.');if(!confirm('Delete this photo? The dera and its other photos stay.'))return;a.splice(i,1);return peSave({images:a},'Photo deleted')}
+ if(k==='sd'){const nm=$('#pn').value.trim();if(!nm)return toast('The name cannot be empty');return peSave({name:nm,cat:$('#pc').value,color:$('#pcol').value.trim(),fabric:$('#pfab').value.trim(),desc:$('#pd').value.trim()},'Details saved')}
+ if(k==='sp'){const pr=+$('#pp').value,sl=+$('#ps').value||0;if(!(pr>0))return toast('Enter a valid price');if(sl&&sl>=pr)return toast('The discount price must be lower than the price');return peSave({price:pr,sale:sl,status:$('#pst').value,hot:$('#ph2').checked},'Price and status saved')}
+ if(k==='rm'){if(!confirm('Delete "'+p.name+'" from your shop? This cannot be undone.'))return;await DB.delProduct(PE);peClose();await load(true);drawList();return toast('Dera deleted')}
+ }catch(err){toast(err.message||'Could not save');console.error(err);peSt('')}});
+$('#pebody').addEventListener('change',async ev=>{const t=ev.target,p=pEl();if(!p)return;let a=[...imgs(p)];
+ try{
+ if(t.id==='pefile'&&t.files[0]){peSt('Uploading...');a[peIdx]=await upImg(t.files[0]);t.value='';return peSave({images:a},'Photo replaced')}
+ if(t.id==='peadd'&&t.files.length){const fl=[...t.files];for(let n=0;n<fl.length;n++){peSt(`Uploading ${n+1}/${fl.length}...`);a.push(await upImg(fl[n]))}t.value='';return peSave({images:a},fl.length+' photo(s) added')}
+ }catch(err){peSt('');toast(err.message||'Upload failed');console.error(err)}});
+function drawList(){const el=$('#plist');if(!el)return;const l=P.filter(p=>(!aq||norm(p.name+' '+p.cat+' '+(p.color||'')).includes(norm(aq)))&&(!ast||st(p)===ast));
+ el.innerHTML=l.slice(0,apLim).map(p=>`<div class="row">${ph(p,false,160)}<div><b style="color:var(--ink)">${esc(p.name)}</b><br>${esc(p.cat)} | ${imgs(p).length} photo(s)${onSale(p)?` | <b>-${pct(p)}%</b>`:''}</div><label class="qpl">Price<input class="qp" type="number" min="1" data-pf="${esc(p.id)}" value="${p.price}"></label><label class="qpl">Sale<input class="qp" type="number" min="0" data-sf="${esc(p.id)}" value="${p.sale||''}" placeholder="none"></label>
+  <select data-st="${esc(p.id)}" aria-label="Status">${stOpts(st(p))}</select><button class="btn ${p.hot?'k':'o'} sm" data-hot="${esc(p.id)}">${p.hot?'Hot: on':'Hot: off'}</button>
+  <button class="btn o sm" data-e="${esc(p.id)}">Edit</button></div>`).join('')+(l.length>apLim?`<p style="text-align:center;margin-top:12px"><button class="btn o sm" data-apm="1">Show more (${l.length-apLim} left)</button></p>`:'')||'<p>No matching products.</p>'}
+/* content + policy tabs */
+const contentTab=()=>`<div class="panel"><h3>Pages and content</h3><p style="margin:8px 0 14px">Edit the words on your Our Story page, the story block on the home page, and the Questions section. Changes go live for everyone within a couple of minutes.</p>
+ <div class="fgrid"><div style="grid-column:1/-1"><label>Our Story: headline (the last word is highlighted)</label><input id="c1" maxlength="90" value="${esc(CFG.storyTitle||DEF.storyTitle)}"></div><div style="grid-column:1/-1"><label>Our Story: introduction</label><textarea id="c2" rows="3" maxlength="400">${esc(CFG.storyIntro||DEF.storyIntro)}</textarea></div>
+ <div style="grid-column:1/-1"><label>Our Story: cards. Write each card as a title on the first line and the text below it. Leave one blank line between cards.</label><textarea id="c3" rows="12" maxlength="3000">${esc(toBlocks(CFG.storyCards&&CFG.storyCards.length?CFG.storyCards:DEF.storyCards,'t','b'))}</textarea></div>
+ <div style="grid-column:1/-1"><label>Home page story block: title</label><input id="c4" maxlength="90" value="${esc(CFG.homeStoryTitle||DEF.homeStoryTitle)}"></div><div style="grid-column:1/-1"><label>Home page story block: text</label><textarea id="c5" rows="3" maxlength="500">${esc(CFG.homeStoryText||DEF.homeStoryText)}</textarea></div>
+ <div style="grid-column:1/-1"><label>Questions section. Write each question on the first line and the answer below it. Leave one blank line between questions.</label><textarea id="c6" rows="16" maxlength="8000">${esc(toBlocks(CFG.faq&&CFG.faq.length?CFG.faq:DEF.faq,'q','a'))}</textarea></div></div>
+ <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap"><button class="btn sm" type="button" id="csave">Save content</button><button class="btn o sm" type="button" id="creset">Reset all to the original wording</button></div></div>`;
+const polTab=()=>`<div class="panel"><h3>Policies</h3><p class="note" style="margin-bottom:14px">These drafts follow common Kenyan online-shop practice and the rules you gave us (2 days to report a defect, items returned as new, buyer pays return delivery). They are <b>not legal advice</b>. Please have a Kenyan lawyer review them before you rely on them. Customers see them in pop-ups from the footer and at checkout.</p>
+ <p style="margin-bottom:14px;font-size:.88rem">Formatting: a line starting with <b>## </b> becomes a heading, a line starting with <b>- </b> becomes a bullet, and other lines are paragraphs.</p>
+ ${Object.keys(POL_DEF).map(k=>`<div style="margin-bottom:18px"><label>${esc(POL_DEF[k].t)}</label><textarea id="pol_${k}" rows="12" maxlength="9000">${esc(polText(k))}</textarea><div style="margin-top:8px;display:flex;gap:10px;flex-wrap:wrap"><button class="btn sm" type="button" data-psave="${k}">Save this policy</button><button class="btn o sm" type="button" data-preset="${k}">Reset to the draft</button><button class="btn o sm" type="button" data-pprev="${k}">Preview</button></div></div>`).join('')}</div>`;
+A.addEventListener('click',async ev=>{const t=ev.target,id=t.id,d=t.dataset;
+ try{
+ if(id==='csave'){const cards=parseCards($('#c3').value),faq=parseFaq($('#c6').value);if(!$('#c1').value.trim()||!cards.length||!faq.length)return toast('Please fill in the headline, at least one card and at least one question');
+  const o={storyTitle:$('#c1').value.trim(),storyIntro:$('#c2').value.trim(),storyCards:cards,homeStoryTitle:$('#c4').value.trim(),homeStoryText:$('#c5').value.trim(),faq};await DB.saveSettings(o);applySettings(o);return toast('Content saved')}
+ if(id==='creset'&&confirm('Restore the original wording for the Our Story page, home story block and Questions?')){await DB.saveSettings({},['storyTitle','storyIntro','storyCards','homeStoryTitle','homeStoryText','faq']);['storyTitle','storyIntro','storyCards','homeStoryTitle','homeStoryText','faq'].forEach(k=>delete CFG[k]);renderContent();toast('Original wording restored');return adminView()}
+ if(d.psave){const k=d.psave,txt=$('#pol_'+k).value.trim();if(txt.length<40)return toast('The policy text is too short');const pol={...(CFG.pol||{}),[k]:txt};await DB.saveSettings({pol});CFG.pol=pol;return toast('Policy saved')}
+ if(d.preset&&confirm('Restore the draft text for this policy?')){const pol={...(CFG.pol||{})};delete pol[d.preset];await DB.saveSettings({pol});CFG.pol=pol;toast('Draft restored');return adminView()}
+ if(d.pprev){const k=d.pprev;polFrom=t;$('#polt').textContent=POL_DEF[k].t;$('#polb').innerHTML=polHTML($('#pol_'+k).value);$('#pold').textContent='Preview (not saved yet)';$('#polm').classList.add('on');$('#polx').focus();return}
+ if(d.apm){apLim+=40;return drawList()}
+ if(d.e)return peOpen(d.e);
+ }catch(err){toast(err.message||'Something went wrong');console.error(err)}});
+/* new-order alert, idle sign-out */
+let lastOrderTs=0,lastAct=Date.now();
+['click','keydown','touchstart'].forEach(n=>addEventListener(n,()=>{lastAct=Date.now()},{passive:true}));
+setInterval(async()=>{if(!adminOK||location.hash!=='#admin')return;
+ if(Date.now()-lastAct>30*60*1000){adminOK=false;if(fb)try{await auth.signOut()}catch(e){}toast('Signed out after 30 minutes of inactivity');return adminView()}
+ try{const t=await DB.latestOrderTs();if(t&&lastOrderTs&&t>lastOrderTs){toast('New order received');if(tab==='o')adminView()}if(t)lastOrderTs=Math.max(lastOrderTs,t)}catch(e){}},45000);
+
+/* ===== v5 orders: filter, CSV, mark items sold when paid ===== */
+const csvRows=rows=>rows.map(r=>r.map(v=>'"'+String(v==null?'':v).replace(/"/g,'""').replace(/^([=+\-@])/,"'$1")+'"').join(',')).join('\r\n');
+A.addEventListener('click',ev=>{if(ev.target.id!=='ocsv')return;const o=Object.values(window._ordMap||{});if(!o.length)return toast('No orders to download');
+ const rows=[['Date','Name','Phone','Country','Address','Items','Total KES','M-Pesa code','Status','Notes']].concat(o.map(x=>[new Date(x.created).toISOString().slice(0,16).replace('T',' '),x.name,x.phone,x.country||'Kenya',x.location,(Array.isArray(x.items)?x.items:[]).map(i=>i.q+' x '+i.name).join('; '),x.total,x.mpesa,x.status,x.notes||'']));
+ const b=new Blob(['\ufeff'+csvRows(rows)],{type:'text/csv;charset=utf-8'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='dera-orders.csv';document.body.appendChild(a);a.click();a.remove();toast('Orders downloaded')});
+A.addEventListener('change',async ev=>{const t=ev.target;
+ if(t.id==='ofs'){window._ofs=t.value;return adminView()}
+ if(t.dataset.s&&t.value==='Paid'){const o=(window._ordMap||{})[t.dataset.s];if(!o||!Array.isArray(o.items))return;const ids=o.items.map(i=>i.id).filter(id=>P.some(p=>p.id===id&&st(p)!=='sold'));if(!ids.length)return;
+  const names=ids.map(id=>(P.find(p=>p.id===id)||{}).name).join(', ');if(!confirm('Payment confirmed. Mark these deras as Sold so nobody else can order them?\n\n'+names))return;
+  try{await DB.mutate(items=>{items.forEach(p=>{if(ids.includes(p.id))p.status='sold'});return items});await load(true);toast('Marked as sold')}catch(e){toast(e.message||'Could not update')}}});
+
+function productLD(){const l=P.filter(p=>imgs(p)[0]).slice(0,60).map(p=>({'@type':'Product',url:location.origin+location.pathname+'?p='+encodeURIComponent(p.id),name:p.name,description:p.desc||p.name,category:p.cat,image:imgs(p).map(u=>{try{return new URL(cdn(u,1000),location.href).href}catch(e){return u}}),offers:{'@type':'Offer',priceCurrency:'KES',price:String(eff(p)),availability:st(p)==='sold'?'https://schema.org/SoldOut':st(p)==='reserved'?'https://schema.org/LimitedAvailability':'https://schema.org/InStock'}}));
+ let el=document.getElementById('ldp');if(!el){el=document.createElement('script');el.type='application/ld+json';el.id='ldp';document.head.appendChild(el)}el.textContent=JSON.stringify({'@context':'https://schema.org','@graph':l})}
+async function load(force){try{P=await DB.products(force);loadFailed=false}catch(e){if(fb){P=[];loadFailed=true;toast('Could not load the collection. Please check your connection.')}else{P=SAMPLE}}navs();renderGrid(true);renderCart();$('#wc').textContent=wish.length;renderFeatured();paintHome();productLD();$('#cur').value=cur}
 function goHome(e){if(e)e.preventDefault();catF='All';maxF=0;qF='';avF='';sortF='new';$('#q').value='';$('#av').value='';$('#sort').value='new';$('#pr').value='';shut();$('#pm').classList.remove('on');try{history.replaceState(null,'',location.pathname+location.search)}catch(x){}navs();renderGrid();route();scrollTo({top:0,behavior:'smooth'})}
 document.addEventListener('click',e=>{const h=e.target.closest('a.home');if(h)goHome(e)});
 document.querySelectorAll('#tt2,#tt3').forEach(a=>a.href=CFG.tiktok);$('#yr').textContent=new Date().getFullYear();
-DB.settings().catch(()=>({})).then(applySettings).then(load).then(route);
+/* ===== v5: editable content, policies, search, caching, security ===== */
+const POL_VER='2026-11',POL_DATE='November 2026';
+let loadFailed=false;
+const safeHttps=u=>/^https:\/\//i.test(String(u||''))?String(u):'';
+const DEF={
+ storyTitle:'Where elegance meets simplicity',
+ storyIntro:'Dera by Ms Mulae is a Kenyan fashion brand from Ruiru, made for women who love comfort, beauty and style.',
+ storyCards:[{t:'Made to last',b:'Quality deras with rich dye work, prints and colours that stand out, made to be loved for a long time.'},{t:'Priced for you',b:'From KES 450 to KES 1,000, because looking elegant should never feel out of reach.'},{t:'Modest and stylish',b:'Flowing cuts that move with you, from everyday comfort to special occasions.'},{t:'Shop with confidence',b:'Every dera is photographed front and back, so you see exactly what you are getting.'}],
+ homeStoryTitle:'Where elegance meets simplicity',
+ homeStoryText:'Dera by Ms Mulae is a Kenyan fashion brand from Ruiru, creating flowing deras that feel as beautiful as they look. Quality made to last, priced so elegance feels within reach.',
+ faq:[
+  {q:'How do I place an order?',a:'Add your deras to the cart, enter your name, phone and delivery address, and accept the Terms and Returns policy. In Kenya, pay by M-Pesa to the number shown in your cart and enter the confirmation code. Then tap Send order on WhatsApp so we can confirm and arrange delivery.'},
+  {q:'Do you ship internationally?',a:'International orders are welcome. Place your order and we confirm shipping cost, delivery time and payment options with you on WhatsApp before you pay anything.'},
+  {q:'What is a Nursing Dera?',a:'A dera designed for easy breastfeeding access, comfortable and flowing. Ask us on WhatsApp about current nursing pieces.'},
+  {q:'How much is delivery in Kenya?',a:'We deliver by Bolt or Uber. The ride fee depends on your location and is paid by you. We confirm it with you on WhatsApp.'},
+  {q:'How do I pay?',a:'In Kenya, pay the total by M-Pesa to the number shown in your cart, then enter the confirmation code. International customers: we confirm payment options on WhatsApp.'},
+  {q:'What size are the deras?',a:'Our deras are loose and free-flowing and suit most sizes. Message us for measurements of any piece.'},
+  {q:'What if my dera has a defect or is not as described?',a:'Tell us immediately on WhatsApp, and within 2 days of receiving it, with your order details and clear photos. See our Returns and Refunds policy at the bottom of the page.'},
+  {q:'What do Reserved and Sold mean?',a:'Reserved means another customer is buying that dera. Sold means it has gone. Each dye pattern is unique, so message us if you would like something similar.'},
+  {q:'Is the dera exactly like the photo?',a:'Yes, the photos show the actual piece. Colours can look slightly different on different screens. Each design is unique, so once it sells out it will not return in the same pattern.'}]
+};
+const POL_DEF={
+terms:{t:'Terms and Conditions',x:`## About these terms
+These terms apply to every order you place with Dera by Ms Mulae ("we", "us"), a fashion business based in Ruiru, Kenya. By placing an order you agree to them.
+## Orders
+- An order is only confirmed once we have verified your payment and confirmed it with you on WhatsApp.
+- We may decline or cancel an order, for example if an item has sold, is reserved for another customer, or payment cannot be verified. If we cancel after you have paid, we refund you.
+## Prices and currency
+- Prices are in Kenyan shillings (KES). Other currencies shown on the site are approximate and for reference only. The final amount is confirmed in KES.
+- Delivery fees are not included in item prices unless we tell you otherwise.
+## One-of-a-kind items and availability
+- Many of our deras are unique and made in very small quantities. Items marked Reserved or Sold cannot be ordered.
+- If an item becomes unavailable after you order, we will tell you and offer an alternative or a refund.
+## Payment
+- In Kenya we accept M-Pesa to the number shown at checkout. You must enter the M-Pesa confirmation code with your order.
+- For international orders we confirm payment options with you on WhatsApp before you pay.
+## Delivery
+- Within Kenya we send orders by Bolt, Uber or a similar rider. The delivery fee depends on your location and is paid by you.
+- Delivery times depend on the rider and your location. We are not responsible for delays outside our control.
+## Product information
+- We photograph the actual pieces. Colours may look slightly different on different screens, and measurements and fit are approximate.
+## Returns, exchanges and refunds
+- Please read our Returns and Refunds policy. It forms part of these terms.
+## Our content
+- All photos, text and logos on this site belong to Dera by Ms Mulae. Please do not copy or reuse them without permission.
+## Liability
+- To the extent allowed by law, we are not liable for indirect or consequential loss. Nothing in these terms limits your rights under Kenyan consumer protection law.
+## Privacy
+- Please read our Privacy Policy to see how we use your personal information.
+## Changes
+- We may update these terms. The version that applies to your order is the one shown when you placed it.
+## Governing law
+- These terms are governed by the laws of Kenya.
+## Contact
+- WhatsApp or call 0797 110 867.`},
+returns:{t:'Returns, Exchanges and Refunds',x:`## What we will accept
+- Items returned in the same condition they were sold: new, unworn, unwashed, unaltered and undamaged, with any tags or packaging we sent.
+- Items that arrive with a defect, damage or the wrong item.
+## Time limit: 2 days
+- Tell us immediately, and no later than 2 days (48 hours) after you receive your order.
+- Requests made after 2 days will not be accepted.
+- Message us on WhatsApp with your name, order details and clear photos or a short video showing the problem.
+## How it works
+- Step 1: Contact us within 2 days with your order details and photos.
+- Step 2: We review your request and tell you whether the item qualifies.
+- Step 3: If approved, you send the item back to us in the condition described above.
+- Step 4: Once we have received and inspected it, we exchange it or refund you.
+## Return delivery fee
+- The cost of returning an item (Bolt, Uber or any other courier) is paid by the buyer.
+## Exchanges
+- Each dera is one of a kind, so exchanges depend on what we have in stock. If we cannot offer a suitable replacement, we refund you instead.
+## Refunds
+- Refunds go back to the original payment method, normally M-Pesa, after the returned item has been received and inspected.
+## What we cannot accept
+- Items that have been worn, washed, altered, stained or damaged after delivery.
+- Items returned or reported after the 2-day period.
+## Your rights
+- Nothing in this policy limits your rights under Kenyan consumer protection law.
+## Contact
+- WhatsApp or call 0797 110 867.`},
+privacy:{t:'Privacy Policy',x:`## Who we are
+Dera by Ms Mulae is a fashion business based in Ruiru, Kenya. We take care of your personal information and handle it in line with the Kenya Data Protection Act, 2019.
+## What we collect
+- Order details: your name, phone number, delivery address, country, items ordered, order notes and M-Pesa confirmation code.
+- Messages you send us on WhatsApp, Instagram or by phone.
+- Basic technical data your browser shares when you visit the site, such as your IP address and device type.
+## Why we use it
+- To process and deliver your order and confirm your payment.
+- To contact you about your order, returns or questions.
+- To keep records we need for accounting and legal reasons.
+- To keep the website secure and working.
+## Who we share it with
+- Delivery riders or couriers, who receive your name, phone number and address so they can deliver.
+- Service providers that run our shop: Google Firebase (orders and shop data), Cloudinary (image delivery), GitHub (website hosting) and Google Fonts. Some of these providers may process data outside Kenya.
+- Authorities, where the law requires it.
+- We do not sell your personal information.
+## How long we keep it
+- We keep order records for as long as we need them for orders, returns, accounting and legal obligations, then delete or anonymise them.
+## Your rights
+- You may ask to see the personal information we hold about you, ask us to correct it, ask us to delete it, or object to how we use it.
+- You may also complain to the Office of the Data Protection Commissioner in Kenya.
+- To make a request, contact us on WhatsApp or call 0797 110 867.
+## Security
+- We use reasonable measures to protect your information. No online service is completely secure, so please keep your own details safe.
+## Children
+- Our shop is intended for adults and we do not knowingly collect information from children.
+## Changes
+- We may update this policy and will show the date of the latest version.`},
+cookies:{t:'Cookies and Browser Storage',x:`## What we store on your device
+- Your shopping cart, saved items, chosen currency and this notice choice, so the shop works as you browse.
+- Your assistant chat during your visit.
+## What we do not do
+- We do not use advertising or tracking cookies.
+- We do not sell or share this information.
+## Third-party services
+- Google Fonts, Cloudinary (images) and Google Firebase (shop data) receive basic technical information such as your IP address when your browser loads fonts, images or shop data.
+## Your choices
+- You can clear this information at any time in your browser settings. Your cart and saved items will then be removed.`}
+};
+const polText=k=>((CFG.pol&&typeof CFG.pol[k]==='string'&&CFG.pol[k].trim())?CFG.pol[k]:POL_DEF[k].x);
+function polHTML(text){let h='',ul=false;String(text).split('\n').forEach(l=>{l=l.trimEnd();if(/^- /.test(l)){if(!ul){h+='<ul>';ul=true}h+='<li>'+esc(l.slice(2))+'</li>';return}if(ul){h+='</ul>';ul=false}if(/^## /.test(l))h+='<h4>'+esc(l.slice(3))+'</h4>';else if(l.trim())h+='<p>'+esc(l)+'</p>'});if(ul)h+='</ul>';return h}
+let polFrom=null;
+function openPol(k){if(!POL_DEF[k])return;polFrom=document.activeElement;$('#polt').textContent=POL_DEF[k].t;$('#polb').innerHTML=polHTML(polText(k));$('#pold').textContent='Last updated '+POL_DATE;$('#polm').classList.add('on');$('#polx').focus();$('#polb').scrollTop=0}
+function closePol(){$('#polm').classList.remove('on');if(polFrom&&polFrom.focus)polFrom.focus()}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-pol]');if(b){e.preventDefault();openPol(b.dataset.pol)}});
+$('#polx').onclick=$('#polok').onclick=closePol;$('#polm').onclick=e=>{if(e.target.id==='polm')closePol()};
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#polm').classList.contains('on'))closePol()});
+/* cookie notice */
+if(!LS.get('dera_ck',0))setTimeout(()=>{$('#ckb').hidden=false;document.body.classList.add('hasck')},900);
+$('#ckok').onclick=()=>{LS.set('dera_ck',1);$('#ckb').hidden=true;document.body.classList.remove('hasck')};
+/* editable content */
+const blocks=t=>String(t||'').split(/\n\s*\n/).map(b=>b.trim()).filter(Boolean).map(b=>{const l=b.split('\n');return[l[0].trim(),l.slice(1).join('\n').trim()]});
+const parseCards=t=>blocks(t).map(([a,b])=>({t:a.slice(0,80),b:b.slice(0,400)}));
+const parseFaq=t=>blocks(t).map(([a,b])=>({q:a.slice(0,160),a:b.slice(0,900)})).filter(x=>x.a);
+const toBlocks=(arr,a,b)=>arr.map(x=>x[a]+'\n'+x[b]).join('\n\n');
+const emLast=s=>{const w=String(s).trim().split(' ');const l=w.pop();return esc(w.join(' '))+(w.length?' ':'')+'<em>'+esc(l)+'</em>'};
+function renderContent(){
+ const T=CFG.storyTitle||DEF.storyTitle,I=CFG.storyIntro||DEF.storyIntro,C=(CFG.storyCards&&CFG.storyCards.length?CFG.storyCards:DEF.storyCards),F=(CFG.faq&&CFG.faq.length?CFG.faq:DEF.faq);
+ $('#storyBody').innerHTML=`<div class="phead"><h1>${emLast(T)}</h1><p>${esc(I)}</p></div><div class="wrap"><div class="pgrid">${C.map(c=>`<div class="pcard"><h3>${esc(c.t)}</h3><p>${esc(c.b)}</p></div>`).join('')}</div><div style="margin-top:34px"><button class="btn" data-go="All">Shop the collection</button></div></div>`;
+ $('#faqList').innerHTML=F.map(x=>`<details><summary>${esc(x.q)}</summary><p>${esc(x.a).replace(/\n/g,'<br>')}</p></details>`).join('');
+ $('#hsT').textContent=CFG.homeStoryTitle||DEF.homeStoryTitle;$('#hsP').textContent=CFG.homeStoryText||DEF.homeStoryText}
+/* search: partial words, typos, synonyms, ranking */
+const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+const ALIAS={violet:'purple',lilac:'purple',lavender:'purple',plum:'purple',maroon:'burgundy',wine:'burgundy',beige:'brown',tan:'brown',fushia:'fuchsia',magenta:'pink',kitenge:'print',dress:'dera',gown:'dera',maxi:'dera',deras:'dera',kaftans:'kaftan',halters:'halter',prints:'print',printed:'print',dyed:'dye'};
+const STOPW=new Set(['dera','a','the','and','of','in','for','with','me','show','find','i','want','some','any','please','looking','to','is','are']);
+function ed1(a,b){const m=a.length,n=b.length;if(Math.abs(m-n)>1)return 9;const d=[...Array(n+1).keys()];for(let i=1;i<=m;i++){let p=d[0];d[0]=i;for(let j=1;j<=n;j++){const t=d[j];d[j]=Math.min(d[j]+1,d[j-1]+1,p+(a[i-1]===b[j-1]?0:1));p=t}}return d[n]}
+function qTokens(q){let s=norm(q).replace(/\btie dyed?\b/g,'dye');return s.split(' ').filter(Boolean).map(w=>ALIAS[w]||w).filter(w=>!STOPW.has(w))}
+function pIx(p){if(!p._ix)Object.defineProperty(p,'_ix',{value:{n:norm(p.name).split(' ').map(w=>ALIAS[w]||w),m:norm([p.cat,p.color,p.fabric].join(' ')).split(' ').filter(Boolean).map(w=>ALIAS[w]||w),d:norm(p.desc).split(' ').map(w=>ALIAS[w]||w)},enumerable:false});return p._ix}
+const hit=(t,ws)=>{for(const w of ws){if(w.startsWith(t))return 1;if(t.length>=4&&w.length>=t.length-1&&ed1(w.slice(0,t.length),t)<=1)return .6}return 0};
+function searchP(q,list){const mx=(String(q).toLowerCase().match(/(?:under|below|less than|max|upto|up to)\s*(?:kes|ksh)?\s*([0-9]{3,5})/)||[])[1];const toks=qTokens(String(q).replace(/(?:under|below|less than|max|upto|up to)\s*(?:kes|ksh)?\s*[0-9]{3,5}/gi,' ')).filter(t=>!/^(under|below|max|upto|kes|ksh)$/.test(t));
+ let l=mx?list.filter(p=>eff(p)<=+mx):list;if(!toks.length)return{list:l,partial:false};
+ const sc=l.map(p=>{const ix=pIx(p);let tot=0,miss=0,got=0;toks.forEach(t=>{let s=0;if(/^[0-9]{3,5}$/.test(t))s=eff(p)===+t?3:0;else s=Math.max(hit(t,ix.n)*4,hit(t,ix.m)*3,hit(t,ix.d));if(s>0){tot+=s;got++}else miss++});return{p,tot,miss,got}});
+ let r=sc.filter(x=>!x.miss).sort((a,b)=>b.tot-a.tot);if(r.length)return{list:r.map(x=>x.p),partial:false};
+ r=sc.filter(x=>x.got>0).sort((a,b)=>b.got-a.got||b.tot-a.tot);return{list:r.map(x=>x.p),partial:true}}
+/* order sanity flags (shown to the owner) */
+function ordFlag(o){const it=Array.isArray(o.items)?o.items:[];let sum=0,low=false;it.forEach(i=>{const q=Math.max(0,Math.floor(+i.q)||0),pr=+i.price||0;sum+=pr*q;const p=P.find(x=>x.id===i.id);if(p&&pr<eff(p))low=true});
+ return(Math.round(sum)!==Math.round(+o.total||0)||low)?'<span class="chk no" style="margin-left:6px">Check: total does not match listed prices</span>':''}
+/* resilience */
+addEventListener('error',e=>{console.error(e.error||e.message)});
+addEventListener('unhandledrejection',e=>{console.error(e.reason);if(!(e.reason&&e.reason.code==='permission-denied'))toast('Something went wrong. Please try again.')});
+if(window.top!==window.self){document.documentElement.style.display='none'}
+(function(){const c=document.createElement('link');c.rel='canonical';c.href=location.origin+location.pathname;document.head.appendChild(c)})();
+renderContent();
+
+/* ===== search UI ===== */
+(function(){const q=$('#q'),sug=$('#sug');let tm;
+ const hide=()=>{sug.hidden=true;sug.innerHTML=''};
+ function show(v){v=v.trim();if(v.length<2)return hide();const r=searchP(v,P.filter(p=>imgs(p)[0]));const l=(r.partial?[]:r.list).slice(0,6);
+  if(!l.length){sug.innerHTML='<div class="sgnone">No match yet. Try a colour or style, like blue or kaftan.</div>';sug.hidden=false;return}
+  sug.innerHTML=l.map(p=>`<button type="button" role="option" data-sid="${esc(p.id)}"><img src="${esc(cdn(imgs(p)[0],80))}" alt="" width="36" height="48"><span>${esc(p.name)}<small>${esc(p.cat)}${st(p)!=='available'?' | '+st(p):''}</small></span><b>${KES(eff(p))}</b></button>`).join('')+`<button type="button" class="sgall" data-sall="1">See all results for \u201c${esc(v)}\u201d</button>`;sug.hidden=false}
+ function run(submit){const v=q.value.trim();qF=v;if(v){catF='All';maxF=0;avF='';$('#av').value='';$('#pr').value=''}
+  if(submit){hide();q.blur();navs();renderGrid();navTo('#shop');requestAnimationFrame(()=>{const g=$('#grid');if(g)g.scrollIntoView({block:'start'})});return}
+  if(location.hash==='#shop'){hide();renderGrid()}else show(v)}
+ q.addEventListener('input',()=>{clearTimeout(tm);tm=setTimeout(()=>run(false),130)});
+ $('#sform').addEventListener('submit',e=>{e.preventDefault();clearTimeout(tm);run(true)});
+ sug.addEventListener('mousedown',e=>e.preventDefault());
+ sug.addEventListener('click',e=>{const b=e.target.closest('[data-sid]');if(b){hide();q.blur();openP(b.dataset.sid);return}if(e.target.closest('[data-sall]'))run(true)});
+ document.addEventListener('click',e=>{if(!e.target.closest('#sform'))hide();const b=e.target.closest('[data-sq]');if(b){q.value=b.dataset.sq;run(true)}if(e.target.closest('#retry'))load(true);if(e.target.closest('#askdera'))$('#aiBtn').click()});
+ q.addEventListener('keydown',e=>{if(e.key==='Escape'){hide();q.blur()}});
+})();
+
+DB.settings().catch(()=>({})).then(st0=>{applySettings(st0);if(P.length||loadFailed){renderGrid(true);renderFeatured();renderCart()}});
+load().then(()=>{route();const sp=new URLSearchParams(location.search).get('p');if(sp&&P.find(x=>x.id===sp))openP(sp)});
+/* ===== Dera Stylist: virtual assistant. Rules mode answers only from your catalogue and settings; optional AI mode uses your own server ===== */
+(function(){
+const SK='dera_ai_v2',log=$('#aiLog'),panel=$('#aiPanel'),btn=$('#aiBtn'),nud=$('#aiNudge');
+let S={};try{S=JSON.parse(sessionStorage.getItem(SK))||{}}catch(e){}
+S.ctx=S.ctx||{};S.msgs=S.msgs||[];S.hist=S.hist||[];S.pool=S.pool||[];S.at=S.at||0;S.flow=S.flow||'';S.asc=!!S.asc;let last='',busy=false,llmDown=false;
+const save=()=>{try{sessionStorage.setItem(SK,JSON.stringify({ctx:S.ctx,msgs:S.msgs.slice(-40),hist:S.hist.slice(-14),pool:S.pool,at:S.at,flow:S.flow,asc:S.asc}))}catch(e){}};
+const draw=(h,w)=>{const d=document.createElement('div');d.className='aim '+w;d.innerHTML=h;log.appendChild(d);log.scrollTop=log.scrollHeight};
+const add=(h,w)=>{S.msgs.push({h,w});draw(h,w);save()};
+const chips=l=>{$('#aiChips').innerHTML=(l||[]).map(x=>`<button type="button" data-q="${esc(x)}">${esc(x)}</button>`).join('')};
+const calm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+async function say(h,ch){busy=true;const t=document.createElement('div');t.className='aim bot typing';t.innerHTML='<i></i><i></i><i></i>';t.setAttribute('aria-label','Dera Stylist is typing');log.appendChild(t);log.scrollTop=log.scrollHeight;if(!calm)await new Promise(r=>setTimeout(r,420));t.remove();add(h,'bot');chips(ch);busy=false}
+const summary=()=>{const c=cart.map(i=>{const p=P.find(x=>x.id===i.id);return p?i.q+' x '+p.name:''}).filter(Boolean).join(', '),x=S.ctx;return[last?'Question: '+last:'',c?'Cart: '+c:'',(x.cat||x.color||x.max)?'Looking for: '+[x.cat,x.color,x.max?'under KES '+x.max:''].filter(Boolean).join(', '):''].filter(Boolean).join('. ')};
+const hand=why=>`${why} <a href="${wa('Hello Dera by Ms Mulae. '+summary())}" target="_blank" rel="noopener">Continue on WhatsApp</a>.`;
+const card=p=>`<div class="mc"><img src="${esc(cdn(imgs(p)[0]||'',160))}" alt="" loading="lazy"><div><b>${esc(p.name)}</b><span>${KES(eff(p))}${onSale(p)?' <em>on sale</em>':''}</span><small>${esc(p.cat)}${p.fabric?' | '+esc(p.fabric):''}${p.color?' | '+esc(p.color):''}${st(p)!=='available'?' | '+st(p):''}</small></div><div class="mb"><button type="button" data-view="${esc(p.id)}">View</button>${st(p)==='available'?`<button type="button" data-aadd="${esc(p.id)}">Add to cart</button>`:''}</div></div>`;
+const lev=(a,b)=>{const m=a.length,n=b.length;if(Math.abs(m-n)>2)return 9;const d=[...Array(n+1).keys()];for(let i=1;i<=m;i++){let p=d[0];d[0]=i;for(let j=1;j<=n;j++){const t=d[j];d[j]=Math.min(d[j]+1,d[j-1]+1,p+(a[i-1]===b[j-1]?0:1));p=t}}return d[n]};
+const COL=()=>[...new Set(P.filter(p=>st(p)==='available').map(p=>(p.color||'').toLowerCase()).filter(Boolean))];
+const VOC=['kaftan','halter','backless','nursing','mtandio','delivery','payment','international','cheaper','cheapest','refund','discount','compare','checkout','available','colour','another'];
+const fix=q=>{const voc=VOC.concat(COL());return q.replace(/[a-z]{5,}/g,w=>{if(voc.includes(w))return w;let best=w,bd=9;for(const v of voc){if(v.length<5)continue;const d=lev(w,v);if(d<bd){bd=d;best=v}}return bd<=(w.length>=8?2:1)?best:w})};
+const INTL=/international|abroad|overseas|outside kenya|\busa\b|america|\buk\b|london|europe|canada|dubai|uganda|tanzania|rwanda|nigeria|south africa|ghana|germany|france|australia|india|china/;
+const has=(q,r)=>r.test(q);
+function nameMatch(q,skip){const t=q.replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(w=>w.length>2&&!['the','and','add','for','dera','deras','cart','bag','available','price','how','much','does','cost','you','have','this','that','with','what','tell','about','compare','versus'].includes(w));if(!t.length)return null;let best=null,sc=0;P.forEach(p=>{if(skip&&skip===p)return;const n=(p.name||'').toLowerCase();const s=t.filter(w=>n.includes(w)).length;if(s>sc){sc=s;best=p}});return sc>=2||(sc===1&&t.length===1&&best)?best:null}
+function budget(q){let m=q.match(/(?:under|below|less than|cheaper than|lower than|max(?:imum)?|up to|within|upto|not more than|no more than|at most|<)\s*(?:kes|ksh|kshs)?\s*([0-9][0-9,]{2,5})/);if(m)return{max:+m[1].replace(/,/g,'')};m=q.match(/between\s*([0-9,]{3,5})\s*(?:and|to|-)\s*([0-9,]{3,5})/);if(m)return{min:+m[1].replace(/,/g,''),max:+m[2].replace(/,/g,'')};m=q.match(/\b([0-9]{3,4})\b/);return m&&/(kes|ksh|budget|price|cost|afford)/.test(q)?{max:+m[1]}:null}
+function parse(q){const c=S.ctx,b=budget(q),cols=COL().filter(x=>q.includes(x));let any=false;
+ if(has(q,/start over|reset|clear|new search/)){S.ctx={};S.asc=false;return true}
+ if(has(q,/any colou?r|remove colou?r/)){delete c.color;any=true}if(has(q,/any budget|remove budget|no budget/)){delete c.max;delete c.min;any=true}
+ if(has(q,/backless|open.?back|halter/)){c.cat='Backless Dera';any=true}else if(has(q,/kaftan|normal|everyday/)){c.cat='Normal Dera';any=true}else if(has(q,/nursing/)){c.cat='Nursing Dera';any=true}else if(has(q,/mtandio/)){c.cat='Dera la Mtandio';any=true}
+ if(has(q,/printed|\bprints?\b/)){c.fabric='print';any=true}else if(has(q,/tie.?dye|dyed|hand.?dye/)){c.fabric='dye';any=true}else if(has(q,/surprise me|any style/)){delete c.cat;delete c.fabric;any=true}
+ if(cols.length){c.color=cols[0];any=true}if(b){if(b.max)c.max=b.max;if(b.min)c.min=b.min;any=true}
+ if(has(q,/cheaper|cheapest|lowest|affordable/)){S.asc=true;any=true}return any}
+const results=()=>{const c=S.ctx;let l=P.filter(p=>st(p)==='available');if(c.cat)l=l.filter(p=>p.cat===c.cat);if(c.color)l=l.filter(p=>(p.color||'').toLowerCase()===c.color);if(c.fabric)l=l.filter(p=>new RegExp(c.fabric,'i').test(p.fabric||''));if(c.max)l=l.filter(p=>eff(p)<=c.max);if(c.min)l=l.filter(p=>eff(p)>=c.min);if(S.asc)l=l.sort((x,y)=>eff(x)-eff(y));return l};
+const desc=()=>{const c=S.ctx;return[c.color,c.fabric==='print'?'printed':c.fabric==='dye'?'hand-dyed':'',c.cat?c.cat.replace(' Dera',''):'',c.max?'under '+KES(c.max):''].filter(Boolean).join(' ')||'all styles'};
+async function show(more){const l=results();if(!more){S.pool=l.map(p=>p.id);S.at=0}const pool=S.pool.map(id=>P.find(p=>p.id===id)).filter(p=>p&&st(p)==='available');
+ if(!pool.length){const c=S.ctx,mn=Math.min(...P.filter(p=>st(p)==='available').map(eff));const alt=[];if(c.color)alt.push('Any colour');if(c.max)alt.push('Any budget');if(c.cat||c.fabric)alt.push('Any style');
+  return say(c.max&&isFinite(mn)&&c.max<mn?`Our lowest price right now is ${KES(mn)}, so nothing is available that low.`:`I could not find an exact match for <b>${esc(desc())}</b>. ${hand('We can also check for you.')}`,alt.concat(['Start over']))}
+ const part=pool.slice(S.at,S.at+4);S.at+=part.length;const left=pool.length-S.at;S.flow='';
+ await say(`${more?'More options':'I found <b>'+pool.length+'</b> for <b>'+esc(desc())+'</b>'}:${part.map(card).join('')}`,[left>0?'Show more':'','Cheaper','Another colour','Delivery',cart.length?'Checkout':'Compare two'].filter(Boolean))}
+const flows={style:()=>say('Let us find your dera. Which style do you prefer?',['Backless halter','Kaftan','Printed','Surprise me']),budget:()=>say('What is your budget?',['Under KES 500','Under KES 700','Any budget']),colour:()=>say('Any colour in mind?',COL().slice(0,6).map(x=>x[0].toUpperCase()+x.slice(1)).concat(['Any colour']))};
+async function info(q){
+ if(has(q,/^(hi|hello|hey|habari|jambo|mambo|good (morning|afternoon|evening))\b/))return say('Hello, I am the Dera Stylist. I can help you choose a dera, compare pieces, explain delivery and payment, and guide you through your order. Where shall we start?',['Help me choose','Under KES 500','Backless deras','Kaftans','Delivery','Talk to Ms Mulae']),1;
+ if(has(q,/\b(human|person|agent|whatsapp|speak|complain\w*|refund\w*|returns?|exchange|cancel\w*|angry|terrible|scam|fraud)\b|call me|talk to|damag|wrong item/))return say(hand(has(q,/\b(refund\w*|returns?|exchange|cancel\w*|complain\w*|angry|terrible|scam|fraud)\b|damag|wrong/)?'Returns, exchanges and complaints are handled personally by Ms Mulae, and I do not want to guess the terms.':'Of course.')),1;
+ if(has(q,/\btrack\w*|where is my order|order status|my order|paid already|i paid|forgot.*code|m-?pesa code/))return say(has(q,/paid|code/)?'After paying, enter the M-Pesa confirmation code (from the Safaricom message) at checkout and place your order. '+hand('If you already placed it, send us your name and code so we can confirm.'):hand('I cannot see live order progress here. Send us your name and M-Pesa code and we will update you.')),1;
+ if(has(q,/(what'?s|whats|show|view).*(cart|bag)|my (cart|bag)|total|subtotal/)||has(q,/^checkout$|check out|go to cart/)){if(!cart.length)return say('Your cart is empty. Tell me what you are looking for and I will find it.',['Help me choose']),1;openD('drawer');return say(`You have ${cart.reduce((s,i)=>s+i.q,0)} item(s), subtotal <b>${KES(total())}</b>. I opened your cart so you can review and check out. ${isIntl&&isIntl()?'':'Delivery by Bolt or Uber is extra and paid by you.'}`,['Delivery','How to pay']),1}
+ if(has(q,/^add\b|add .* (to|in)/)){const p=nameMatch(q.replace(/^add\s+/,''));if(!p)return say('Tell me the dera name, for example "add Magenta Dusk Halter".',['Help me choose']),1;if(st(p)!=='available')return say(`${esc(p.name)} is ${st(p)}, so it cannot be ordered right now. Shall I find something similar?`,['Help me choose']),1;addCart(p.id);return say(`Added <b>${esc(p.name)}</b> (${KES(eff(p))}) to your cart. Anything else, or shall we check out?`,['Checkout','Help me choose']),1}
+ if(has(q,/compare/)){const parts=q.replace('compare','').split(/\band\b|\bvs\b|\bversus\b|,|&/);const a=nameMatch(parts[0]||''),b=nameMatch(parts[1]||'',a);if(a&&b){const row=p=>`<b>${esc(p.name)}</b><br>${KES(eff(p))} | ${esc(p.cat)} | ${esc(p.fabric||'')} ${esc(p.color||'')} | ${imgs(p).length>1?'front and back photos':'1 photo'} | ${st(p)}`;return say(`${row(a)}<br><br>${row(b)}${card(a)}${card(b)}`,['Delivery','Checkout']),1}return say('Tell me two dera names, for example "compare Fuchsia Bloom Halter and Violet Galaxy Halter".'),1}
+ if(INTL.test(q))return say(CFG.intlOn==='no'?'We currently deliver within Kenya only.':esc(CFG.intlNote)+' You can switch prices to USD, GBP or EUR at the top of the page for reference.',['Talk to Ms Mulae','Delivery']),1;
+ if(has(q,/\b(deliver\w*|shipping|ship|bolt|uber|courier)\b/))return say(`Within Kenya we send your order by Bolt or Uber. The ride fee depends on your location and is paid by you. ${CFG.intlOn!=='no'?esc(CFG.intlNote):''}`,['How to pay','Help me choose']),1;
+ if(has(q,/\b(pay\w*|mpesa|m-pesa|till|paybill|lipa)\b/))return say(MP()?`In Kenya, pay by M-Pesa to ${esc(CFG.mpesaLabel)} <b>${esc(CFG.mpesaNumber)}</b> (${esc(CFG.mpesaName)}), then enter the M-Pesa confirmation code at checkout.`:hand('I do not have the payment number on screen yet.'),['Delivery','Checkout']),1;
+ if(has(q,/\b(currency|usd|dollars?|pounds?|euros?|gbp|eur|convert\w*)\b/))return say('Use the currency selector at the top of the page to see prices in KES, USD, GBP or EUR. Overseas amounts are approximate, and the final amount is confirmed in KES.'),1;
+ if(has(q,/\b(size\w*|fit|fits|measure\w*|length)\b/))return say(hand('Our deras are loose and free-flowing and suit most sizes.')+' Ask for exact measurements of any piece.'),1;
+ if(has(q,/\b(opening|open|hours|location|address)\b|where are you|shop located/))return say('We are based in Ruiru, Kenya, and sell online with delivery. '+hand('For visiting or opening times, please ask Ms Mulae directly.')),1;
+ if(has(q,/how (do|can) i (order|buy)|^order$|how to order|\b(buy|purchase)\b/)&&!has(q,/under|below/))return say('1) Add deras to your cart. 2) Enter your name, phone and delivery address. 3) In Kenya, pay by M-Pesa and enter the confirmation code. 4) We confirm on WhatsApp and arrange delivery.',['How to pay','Delivery','Help me choose']),1;
+ if(has(q,/\b(discount\w*|sale|offers?|promo\w*|hot)\b/)){const l=P.filter(p=>st(p)==='available'&&(onSale(p)||p.hot));return l.length?(say('Our current offers:'+l.slice(0,4).map(card).join('')),1):(say('There are no discounts or hot-sale pieces right now. Follow us on Instagram to see new offers first.',['Help me choose']),1)}
+ return 0}
+async function rules(raw){last=raw;const q=fix(raw.toLowerCase().trim());
+ if(/^help me choose$|^find a dera$/.test(q)){S.ctx={};S.asc=false;S.flow='style';save();return flows.style()}
+ if(S.flow==='style'&&/backless halter|kaftan|printed|surprise me/.test(q)){parse(q);S.flow='budget';save();return flows.budget()}
+ if(S.flow==='budget'&&/under|any budget|[0-9]{3}/.test(q)){parse(q);S.flow='colour';save();return flows.colour()}
+ if(S.flow==='colour'){parse(q);S.flow='';save();return show()}
+ if(/^show more$/.test(q))return show(true);
+ if(/^(another colou?r|different colou?r)$/.test(q)){const cs=[...new Set(S.pool.map(id=>P.find(p=>p.id===id)).filter(Boolean).map(p=>(p.color||'').toLowerCase()).filter(Boolean))];delete S.ctx.color;return say('Which colour would you like?',(cs.length?cs:COL()).slice(0,8).map(x=>x[0].toUpperCase()+x.slice(1)))}
+ if(/^compare two$/.test(q))return say('Tell me two dera names, for example "compare Fuchsia Bloom Halter and Violet Galaxy Halter".');
+ if(await info(q))return;
+ const p1=nameMatch(q);if(p1&&!budget(q)&&!/under|below/.test(q))return say(`<b>${esc(p1.name)}</b>: ${KES(eff(p1))}${onSale(p1)?' (on sale)':''}. ${esc(p1.cat)}${p1.color?', '+esc(p1.color):''}${p1.fabric?', '+esc(p1.fabric):''}. ${st(p1)==='available'?'Available now.':st(p1)==='reserved'?'Currently reserved for another customer.':'Sold.'}<br>${esc(p1.desc||'')}${card(p1)}`,['Compare two','Delivery','Checkout']);
+ if(/nursing|breastfe|mtandio/.test(q)&&!P.some(p=>st(p)==='available'&&p.cat===(/mtandio/.test(q)?'Dera la Mtandio':'Nursing Dera')))return say(hand(`We do not have ${/mtandio/.test(q)?'Dera la Mtandio':'Nursing Dera'} pieces listed right now, but new ones are being added.`));
+ if(parse(q)||/find|show|looking|want|need|recommend|suggest|dera|\bmore\b|another/.test(q))return show(/^(more|another)$/.test(q));
+ if(/\bsold\b|reserved/.test(q))return say('Sold and reserved pieces cannot be ordered, so I only show available deras. Tell me a colour, style or budget.',['Help me choose']);
+ return say(hand('I am not sure about that, and I would rather not guess.')+' I can help with choosing deras, prices, delivery, payment and your order.',['Help me choose','Delivery','How to pay','Talk to Ms Mulae'])}
+async function llm(text){const ac=new AbortController(),to=setTimeout(()=>ac.abort(),9000);try{const r=await fetch(CFG.assistantUrl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:S.hist.slice(-10).concat([{role:'user',content:text}]),cart:cart.map(i=>({id:i.id,q:i.q})),currency:cur}),signal:ac.signal});if(!r.ok)return null;const j=await r.json();return j&&typeof j.reply==='string'?j:null}catch(e){return null}finally{clearTimeout(to)}}
+const CMD=/^(help me choose|find a dera|show more|compare two|another colou?r|cheaper|checkout|start over|any (colou?r|budget|style)|backless halter|kaftan|printed|surprise me|under kes [0-9]+|talk to ms mulae|delivery|how to pay|international orders)$/i;
+async function send(t){t=t.trim().slice(0,200);if(!t||busy)return;add(esc(t),'me');
+ if(/^talk to ms mulae$/i.test(t)){last='';return say(hand('I will pass you to Ms Mulae.'))}
+ if(CFG.assistantUrl&&!llmDown&&!CMD.test(t)&&!S.flow){busy=true;const ty=document.createElement('div');ty.className='aim bot typing';ty.innerHTML='<i></i><i></i><i></i>';log.appendChild(ty);const j=await llm(t);ty.remove();busy=false;
+  if(j){S.hist.push({role:'user',content:t},{role:'assistant',content:j.reply});const ids=(Array.isArray(j.productIds)?j.productIds:[]).map(id=>P.find(p=>p.id===id)).filter(Boolean).slice(0,4);last=t;return say(esc(j.reply).replace(/\n/g,'<br>')+ids.map(card).join('')+(j.handoff?' '+hand(''):''),['Help me choose','Checkout'])}
+  llmDown=true;$('#aiMode').textContent='Basic mode | replies instantly'}
+ try{await rules(t)}catch(e){console.error(e);busy=false;say(hand('Sorry, something went wrong on my side.'))}}
+function open(){panel.hidden=false;nud.hidden=true;btn.setAttribute('aria-expanded','true');$('#aiMode').textContent=CFG.assistantUrl&&!llmDown?'Virtual assistant | AI-powered':'Virtual assistant | replies instantly';
+ if(!log.children.length){if(S.msgs.length)S.msgs.forEach(m=>draw(m.h,m.w));else{add('Hello, I am the <b>Dera Stylist</b>, your virtual assistant. I answer from our live catalogue, so prices and availability are accurate, and I pass you to Ms Mulae on WhatsApp for anything I am unsure about.','bot')}}
+ chips(['Help me choose','Under KES 500','Backless deras','Kaftans','Delivery','Talk to Ms Mulae']);$('#aiIn').focus()}
+const close=()=>{panel.hidden=true;btn.setAttribute('aria-expanded','false')};
+btn.onclick=()=>panel.hidden?open():close();$('#aiX').onclick=()=>{close();btn.focus()};nud.querySelector('#aiNudgeGo').onclick=open;nud.querySelector('#aiNudgeX').onclick=()=>{nud.hidden=true;sessionStorage.setItem('dera_nudge','1')};
+$('#aiForm').onsubmit=e=>{e.preventDefault();const i=$('#aiIn');const v=i.value;i.value='';send(v)};
+$('#aiChips').onclick=e=>{const b=e.target.closest('[data-q]');if(b)send(b.dataset.q)};
+log.onclick=e=>{const v=e.target.closest('[data-view]'),a=e.target.closest('[data-aadd]');if(v)openP(v.dataset.view);if(a){addCart(a.dataset.aadd);say('Added to your cart. Would you like to keep browsing or check out?',['Checkout','Help me choose'])}};
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!panel.hidden)close()});
+setTimeout(()=>{if(panel.hidden&&!sessionStorage.getItem('dera_nudge')&&!/#admin/.test(location.hash)){nud.hidden=false}},25000);
+})();
 </script>
 </body>
 </html>
